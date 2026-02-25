@@ -3,15 +3,19 @@
 <h1>{{ .Title }}</h1>
 
 {{ with .Params.featured_image }}
-  <div style="margin: 2rem 0; text-align: center;">
-    <img src="{{ . }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto; border: 1px solid #ddd; padding: 4px; background: #fff;">
-    
+  <figure style="margin: 2rem 0 2.5rem 0; text-align: center;">
+    <img 
+      src="{{ . }}" 
+      alt="{{ $.Title }}" 
+      style="max-width: 720px; width: 100%; height: auto; border: 1px solid #ccc; padding: 6px; background: #fff;"
+    >
+
     {{ with $.Params.featured_image_caption }}
-      <div style="margin-top: 0.75rem; font-size: 0.9rem; color: #666; font-style: italic;">
+      <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666; font-style: italic;">
         {{ . }}
-      </div>
+      </figcaption>
     {{ end }}
-  </div>
+  </figure>
 {{ end }}
 
 <div style="margin-bottom: 2.5rem; padding: 2rem; background: #f8f8f8; border: 1px solid #ddd;">
@@ -54,18 +58,18 @@
     <div><strong>Access Level</strong><br>{{ . }}</div>
     {{ end }}
 
-    {{ with .Params.restrictions }}
-    <div style="grid-column: span 2;">
-      <strong>Restrictions</strong><br>{{ . }}
-    </div>
-    {{ end }}
-
     {{ with .Params.physical_location }}
     <div><strong>Physical Location</strong><br>{{ . }}</div>
     {{ end }}
 
     {{ with .Params.digital_location }}
     <div><strong>Digital Location</strong><br>{{ . }}</div>
+    {{ end }}
+
+    {{ with .Params.restrictions }}
+    <div style="grid-column: span 2;">
+      <strong>Restrictions</strong><br>{{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.people }}

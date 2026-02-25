@@ -1940,12 +1940,6 @@ body {
 .filter-btn.active {
   background: currentColor;
   color: #fff;
-}
-
-/* Rounded buttons for Accessions filters */
-.accession-filters button,
-.accession-filters a,
-.accession-search button,
-.accession-search input[type="submit"] {
-  border-radius: 999px;
+  
+  border-radius: 12px;
 }

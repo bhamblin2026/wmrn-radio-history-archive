@@ -3,29 +3,41 @@
 <h1>{{ .Title }}</h1>
 
 {{ if .Content }}
-  <div class="section-intro">
+  <div class="section-intro" style="margin-bottom: 2rem;">
     {{ .Content }}
   </div>
 {{ end }}
 
-<hr>
+<div style="border-top: 1px solid #ddd; margin: 2rem 0;"></div>
 
 {{ range sort .Pages "Params.accession_id" "desc" }}
-  <article style="margin-bottom: 2rem;">
-    <h2>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </h2>
+
+  <article style="padding: 1.75rem 0; border-bottom: 1px solid #e5e5e5;">
 
     {{ with .Params.accession_id }}
-      <p><strong>Accession ID:</strong> {{ . }}</p>
+      <div style="font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; color: #777; margin-bottom: 0.5rem;">
+        {{ . }}
+      </div>
     {{ end }}
+
+    <h2 style="margin: 0 0 0.75rem 0;">
+      <a href="{{ .RelPermalink }}" style="text-decoration: none;">
+        {{ .Title }}
+      </a>
+    </h2>
 
     {{ with .Params.summary }}
-      <p>{{ . }}</p>
+      <p style="margin: 0 0 0.75rem 0; color: #444;">
+        {{ . }}
+      </p>
     {{ end }}
 
-    <a href="{{ .RelPermalink }}">View Full Record →</a>
+    <a href="{{ .RelPermalink }}" style="font-size: 0.9rem;">
+      View Full Record →
+    </a>
+
   </article>
+
 {{ end }}
 
 {{ end }}

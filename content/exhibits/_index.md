@@ -17,7 +17,7 @@ Each exhibit integrates archival materials, documented research, and contextual 
 
 ### Buckeye Chuck & Groundhog Day  
 A documented history of WMRN’s long-running Groundhog Day broadcast tradition beginning in 1979.  
-[View Exhibit →](/exhibits/buckeye-chuck/)
+[View Exhibit →](/exhibits/buckeye-chuck-groundhog-day/)
 
 ---
 

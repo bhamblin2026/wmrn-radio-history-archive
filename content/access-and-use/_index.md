@@ -3,130 +3,102 @@ title: "Access & Use Policy"
 layout: page
 weight: 45
 searchable: true
-description: "Access, use, reproduction, and citation guidelines for materials held by the WMRN Radio History Archive."
+description: "Guidelines governing access, citation, reproduction, and permitted use of materials held by the WMRN Radio History Archive."
 ---
 
 # Access & Use Policy
 
-The WMRN Radio History Archive is committed to preserving, documenting, and providing responsible access to historical materials relating to WMRN-AM (1490) and its associated FM operations in Marion, Ohio.
+The WMRN Radio History Archive provides responsible public access to historical materials relating to WMRN-AM (1490) and its associated FM operations.
 
-This policy defines how materials may be accessed, cited, reproduced, and used for research, educational, and publication purposes.
+This policy governs how materials may be accessed, cited, reproduced, or used.
 
 ---
 
 ## Access Designations
 
-Materials within the Archive are documented at the accession level and assigned an access designation.
+Materials are assigned one of the following access levels:
 
 ### Open Access
 
-Materials designated as **Open Access** may be viewed online and used for personal research, educational, or non-commercial historical purposes, subject to the conditions outlined below.
+Open Access materials may be viewed online and used for:
+
+- Personal research  
+- Educational reference  
+- Non-commercial historical documentation  
+
+Use must comply with the conditions outlined below.
 
 ### Restricted
 
-Materials designated as **Restricted** are not publicly accessible. Restrictions may apply for reasons including, but not limited to:
+Restricted materials are not publicly accessible. Restrictions may apply due to:
 
-- Donor agreements or specified conditions  
+- Donor agreements  
 - Privacy or sensitivity concerns  
 - Copyright uncertainty  
 - Preservation limitations  
-- Ongoing processing or cataloging  
 
-The presence of a catalog record does not imply public availability.
+The existence of an accession record does not imply public availability.
 
 ---
 
 ## Permitted Use
 
-Unless otherwise specified, materials made available through the Archive may be used under the following conditions:
+Unless otherwise noted, Open Access materials may be used for non-commercial purposes provided that:
 
-- For personal research or private study  
-- For classroom or educational reference  
-- For non-commercial historical documentation  
+- The material is not altered in a misleading manner  
+- Historical context is preserved  
+- Proper citation is provided  
 
-Users must not alter, misrepresent, or remove contextual information in a manner that distorts the historical record.
-
-All public references must include appropriate attribution.
-
-Commercial use, rebroadcast, redistribution, publication, or derivative production requires prior written permission.
+Commercial publication, redistribution, rebroadcast, or derivative use requires prior written permission.
 
 ---
 
-## Copyright & Intellectual Property
+## Copyright
 
-The WMRN Radio History Archive does not claim ownership of all intellectual property represented in its holdings.
+The Archive does not claim ownership of all intellectual property represented within its holdings.
 
-Rights may remain with:
+Rights may remain with original creators, donors, estates, broadcasters, or third parties.
 
-- Original creators  
-- Broadcasters or production entities  
-- Donors or contributors  
-- Estates or third parties  
-
-The Archive documents rights status when known; however, responsibility for determining copyright clearance rests with the user.
-
-The Archive provides materials for historical and educational reference and does not guarantee rights clearance for publication.
+Users are responsible for determining copyright status and securing any necessary permissions.
 
 ---
 
-## Citation Standards
+## Citation
 
-Researchers, writers, and media outlets are encouraged to cite materials accurately.
+When referencing materials from the Archive, use the following format:
 
-Recommended citation format:
+WMRN Radio History Archive, Accession WMRN-YYYY-###, Marion, Ohio.
 
-> WMRN Radio History Archive, Accession WMRN-YYYY-###, Marion, Ohio.
-
-Where applicable, include:
+Include, where possible:
 
 - Accession ID  
-- Title or description  
-- Date or approximate year  
+- Item title or description  
+- Date (if known)  
 - Date accessed  
 
-Clear citation supports the integrity of the historical record.
+Accurate citation supports preservation of the historical record.
 
 ---
 
-## Reproduction & Publication Requests
+## Permission Requests
 
 Requests to:
 
 - Access restricted materials  
 - Obtain higher-resolution files  
-- Reproduce materials in print or broadcast  
-- Use materials for commercial or public-facing purposes  
+- Reproduce materials in publication or broadcast  
+- Use materials commercially  
 
 may be submitted via email.
 
-All requests are reviewed on a case-by-case basis and may be granted, limited, or declined based on legal, ethical, or preservation considerations.
+All requests are reviewed individually and may be granted, limited, or declined.
 
 ---
 
-## Accuracy & Revisions
-
-Historical materials may reflect incomplete documentation or differing recollections.
-
-The Archive welcomes corrections, contextual additions, and supporting documentation that strengthen historical accuracy. Updates are made when verified.
-
----
-
-## Independence
+## Disclaimer
 
 The WMRN Radio History Archive is an independent preservation initiative.
 
-Inclusion of materials does not imply endorsement by, affiliation with, or representation of WMRN, WMRN-FM, or any current or former ownership entity.
+Inclusion of materials does not imply endorsement by, affiliation with, or representation of WMRN or any current or former ownership entity.
 
 Materials are presented for historical and educational purposes.
-
----
-
-## Contact
-
-For research inquiries, reproduction requests, or corrections:
-
-**archive@wmrnhistory.com**
-
----
-
-© 2026 WMRN Radio History Archive

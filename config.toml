@@ -143,14 +143,14 @@ mainSections = [
   # Collections
   # --------------------
 
- [[menu.main]]
-  identifier = "collections"
-  name = "Collections"
-  pageRef = "/collections/"
-  weight = 3
+  [[menu.main]]
+    identifier = "collections"
+    name = "Collections"
+    pageRef = "/collections/"
+    weight = 3
 
   [[menu.main]]
-  parent = "collections"
+    parent = "collections"
     name = "Browse the Archive"
     pageRef = "/browse-the-archive/"
     weight = 1
@@ -162,37 +162,47 @@ mainSections = [
     weight = 2
 
   # --------------------
-# History
-# --------------------
+  # History
+  # --------------------
 
-[[menu.main]]
-  identifier = "history"
-  name = "History"
-  weight = 4
+  [[menu.main]]
+    identifier = "history"
+    name = "History"
+    weight = 4
 
-[[menu.main]]
-  parent = "history"
-  name = "Station History"
-  pageRef = "/station-history/"
-  weight = 1
+  [[menu.main]]
+    parent = "history"
+    name = "Station History"
+    pageRef = "/station-history/"
+    weight = 1
 
-[[menu.main]]
-  parent = "history"
-  name = "Founding of WMRN"
-  pageRef = "/founding-of-wmrn/"
-  weight = 2
+  [[menu.main]]
+    parent = "history"
+    name = "Founding of WMRN"
+    pageRef = "/founding-of-wmrn/"
+    weight = 2
 
-[[menu.main]]
-  parent = "history"
-  name = "Historical Timeline"
-  pageRef = "/history/timeline/"
-  weight = 3
+  [[menu.main]]
+    parent = "history"
+    name = "Historical Timeline"
+    pageRef = "/history/timeline/"
+    weight = 3
 
-[[menu.main]]
-  parent = "history"
-  name = "Notable Broadcasters & Staff"
-  pageRef = "/history/notable-broadcasters/"
-  weight = 4
+  [[menu.main]]
+    parent = "history"
+    name = "People & Programming"
+    pageRef = "/people-programming/"
+    weight = 4
+
+  # --------------------
+  # Exhibits
+  # --------------------
+
+  [[menu.main]]
+    identifier = "exhibits"
+    name = "Exhibits"
+    pageRef = "/exhibits/"
+    weight = 5
 
   # --------------------
   # Podcast
@@ -201,7 +211,7 @@ mainSections = [
   [[menu.main]]
     name = "Podcast"
     pageRef = "/podcast/"
-    weight = 5
+    weight = 6
 
   # --------------------
   # Contribute
@@ -210,7 +220,7 @@ mainSections = [
   [[menu.main]]
     name = "Contribute"
     pageRef = "/contribute-materials/"
-    weight = 6
+    weight = 7
 
   # --------------------
   # Footer Only

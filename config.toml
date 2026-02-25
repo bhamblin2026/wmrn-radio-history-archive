@@ -138,3 +138,8 @@ mainSections = [
     name = "Access & Use Policy"
     pageRef = "/access-and-use/"
     weight = 1
+
+[taxonomies]
+collection = "collections"
+media_type = "media-types"
+people = "people"

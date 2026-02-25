@@ -1929,17 +1929,50 @@ body {
   }
 }
 
-.filter-btn {
-  padding: 0.4rem 0.9rem;
+/* ===== ACCESSIONS FILTER BUTTONS ===== */
+
+.section-accessions .filter-btn,
+.section-accessions button.filter-btn {
+  padding: 0.45rem 1rem;
   border: 1px solid currentColor;
   background: transparent;
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.9;
+
+  border-radius: 999px !important;
+
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: all 0.25s ease;
 }
 
-.filter-btn.active {
+/* Hover state */
+.section-accessions .filter-btn:hover {
   background: currentColor;
   color: #fff;
-  
-  border-radius: 12px;
+  transform: translateY(-1px);
+}
+
+/* Active state */
+.section-accessions .filter-btn.active {
+  background: currentColor;
+  color: #fff;
+  opacity: 1;
+}
+
+/* Dark mode refinement */
+@media (prefers-color-scheme: dark) {
+  .section-accessions .filter-btn {
+    border-color: currentColor;
+  }
+
+  .section-accessions .filter-btn:hover {
+    background: #3A5F8C;
+    color: #fff;
+  }
+
+  .section-accessions .filter-btn.active {
+    background: #3A5F8C;
+    color: #fff;
+  }
 }

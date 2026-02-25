@@ -1976,3 +1976,56 @@ body {
     color: #fff;
   }
 }
+
+/* ===============================
+   ACCESSION PAGE FIX
+================================ */
+
+.accession-figure {
+  margin: 2rem 0 2.5rem;
+  text-align: center;
+}
+
+.accession-image {
+  max-width: 720px;
+  width: 100%;
+  height: auto;
+  padding: 6px;
+  border: 1px solid var(--border-color, rgba(0,0,0,0.15));
+  background: var(--body-bg, transparent);
+}
+
+.accession-caption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-style: italic;
+  opacity: 0.75;
+}
+
+.accession-meta-wrapper {
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+  border: 1px solid var(--border-color, rgba(0,0,0,0.15));
+  background: var(--card-bg, rgba(0,0,0,0.03));
+}
+
+.accession-meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+/* Dark mode refinement (if theme doesn’t handle vars) */
+html[data-theme="dark"] .accession-meta-wrapper {
+  background: rgba(255,255,255,0.04);
+  border-color: rgba(255,255,255,0.15);
+}
+
+html[data-theme="dark"] .accession-image {
+  background: #111;
+  border-color: rgba(255,255,255,0.15);
+}

@@ -60,7 +60,7 @@ The Archive generally does not accept:
 
 Accepted materials are assigned a structured Accession ID using the format:
 
-'WMRN-YYYY-###'
+`WMRN-YYYY-###`
 
 Each accession record includes:
 

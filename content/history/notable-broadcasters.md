@@ -27,7 +27,7 @@ Long-standing on-air presence associated with continuity programming into later 
 ### Ruth, Jeff  
 Morning show host and on-air personality associated with local programming initiatives during the late twentieth century.
 
-### Shaver, Scott  
+### Shawver, Scott  
 Broadcaster active during a period of format and operational evolution.
 
 ### Turner, Mark  

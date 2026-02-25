@@ -10,7 +10,7 @@
 
 <hr>
 
-{{ range .Pages.ByDate.Reverse }}
+{{ range sort .Pages "Params.accession_id" "desc" }}
   <article style="margin-bottom: 2rem;">
     <h2>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>

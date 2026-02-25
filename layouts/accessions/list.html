@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ if .Content }}
+  <div class="section-intro">
+    {{ .Content }}
+  </div>
+{{ end }}
+
+<hr>
+
+{{ range .Pages.ByDate.Reverse }}
+  <article style="margin-bottom: 2rem;">
+    <h2>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+
+    {{ with .Params.accession_id }}
+      <p><strong>Accession ID:</strong> {{ . }}</p>
+    {{ end }}
+
+    {{ with .Params.summary }}
+      <p>{{ . }}</p>
+    {{ end }}
+
+    <a href="{{ .RelPermalink }}">View Full Record →</a>
+  </article>
+{{ end }}
+
+{{ end }}

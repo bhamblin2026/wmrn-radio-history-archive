@@ -19,6 +19,9 @@ digital_location: "N/A – Physical artifact only"
 condition: "Fair – visible wear consistent with age"
 restrictions: "Not for public handling; permission required for display"
 
+featured: true
+featured_label: "Featured Artifact"
+
 featured_image: "/images/accessions/wmrn-2026-002.jpg"
 featured_image_caption: "Original metal folding chair used in the WMRN studio during early broadcast operations, circa 1940."
 

@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+  {{ partial "featured-accession.html" . }}
+
+  {{ .Content }}
+
+  {{ range .Paginator.Pages }}
+    {{ .Render "summary" }}
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+
+{{ end }}

@@ -113,18 +113,17 @@ mainSections = [
     weight = 1
 
   # --------------------
-  # The Archive (Institutional Core)
+  # The Archive (Parent Only)
   # --------------------
 
   [[menu.main]]
     identifier = "archive"
     name = "The Archive"
-    pageRef = "/about/"
     weight = 2
 
   [[menu.main]]
     parent = "archive"
-    name = "Mission & Overview"
+    name = "About the Archive"
     pageRef = "/about/"
     weight = 1
 

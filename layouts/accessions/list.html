@@ -10,74 +10,36 @@
 
 <div style="margin: 1.5rem 0; border-top: 1px solid currentColor; opacity: 0.15;"></div>
 
-<!-- FILTER BAR -->
+<!-- FILTER BUTTONS -->
 
-<div style="margin: 1.25rem 0 2rem 0;">
-
-  <div style="
-    font-size: 0.8rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    opacity: 0.7;
-    margin-bottom: 0.75rem;
-  ">
-    Filter Accessions
-  </div>
-
-  <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
-
-    <a href="/accessions/" style="
-      padding: 0.35rem 0.75rem;
-      border: 1px solid currentColor;
-      text-decoration: none;
-      opacity: 0.85;
-    ">
-      All
-    </a>
-
-    <a href="/collections/" style="
-      padding: 0.35rem 0.75rem;
-      border: 1px solid currentColor;
-      text-decoration: none;
-      opacity: 0.85;
-    ">
-      By Collection
-    </a>
-
-    <a href="/media-types/" style="
-      padding: 0.35rem 0.75rem;
-      border: 1px solid currentColor;
-      text-decoration: none;
-      opacity: 0.85;
-    ">
-      By Item Type
-    </a>
-
-    <a href="/people/" style="
-      padding: 0.35rem 0.75rem;
-      border: 1px solid currentColor;
-      text-decoration: none;
-      opacity: 0.85;
-    ">
-      By Person / Entity
-    </a>
-
-  </div>
+<div class="filter-bar" style="margin: 1.5rem 0; display: flex; flex-wrap: wrap; gap: 0.75rem;">
+  
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="audio">Audio</button>
+  <button class="filter-btn" data-filter="photograph">Photographs</button>
+  <button class="filter-btn" data-filter="document">Documents</button>
+  <button class="filter-btn" data-filter="ephemera">Ephemera</button>
+  <button class="filter-btn" data-filter="furniture">Artifacts</button>
 
 </div>
 
 <div style="margin: 1.5rem 0; border-top: 1px solid currentColor; opacity: 0.15;"></div>
 
-<!-- ACCESSION LIST -->
+<!-- ACCESSIONS -->
+
+<div id="accession-container">
 
 {{ range sort .Pages "Params.accession_id" "desc" }}
 
-  <article style="
-    display: flex;
-    gap: 1.25rem;
-    padding: 1.5rem 0;
-    border-bottom: 1px solid currentColor;
-  ">
+  <article 
+    class="accession-item"
+    data-type="{{ lower (index .Params.media_type 0) }}"
+    style="
+      display: flex;
+      gap: 1.25rem;
+      padding: 1.5rem 0;
+      border-bottom: 1px solid currentColor;
+    ">
 
     {{ with .Params.featured_image }}
       <div style="flex: 0 0 140px;">
@@ -105,26 +67,51 @@
         </div>
       {{ end }}
 
-      <h2 style="margin: 0 0 0.5rem 0; font-size: 1.15rem; line-height: 1.25;">
+      <h2 style="margin: 0 0 0.5rem 0;">
         <a href="{{ .RelPermalink }}" style="text-decoration: none;">
           {{ .Title }}
         </a>
       </h2>
 
       {{ with .Params.summary }}
-        <p style="margin: 0; opacity: 0.85; line-height: 1.5;">
+        <p style="margin: 0; opacity: 0.85;">
           {{ . }}
         </p>
       {{ end }}
-
-      <div style="margin-top: 0.65rem; font-size: 0.9rem; opacity: 0.8;">
-        <a href="{{ .RelPermalink }}">View full record →</a>
-      </div>
 
     </div>
 
   </article>
 
 {{ end }}
+
+</div>
+
+<!-- FILTER SCRIPT -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const buttons = document.querySelectorAll(".filter-btn");
+  const items = document.querySelectorAll(".accession-item");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      const filter = button.getAttribute("data-filter");
+
+      buttons.forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      items.forEach(item => {
+        if (filter === "all") {
+          item.style.display = "flex";
+        } else {
+          const type = item.getAttribute("data-type");
+          item.style.display = type === filter ? "flex" : "none";
+        }
+      });
+    });
+  });
+});
+</script>
 
 {{ end }}

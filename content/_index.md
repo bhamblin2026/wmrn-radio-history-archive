@@ -8,15 +8,17 @@ outputs:
 
 # WMRN Radio History Archive
 
-The **WMRN Radio History Archive** is an independent historical preservation initiative dedicated to documenting the broadcast legacy of **WMRN-AM (1490)** and **WMRN-FM** in Marion, Ohio.
+Preserving the broadcast legacy of **WMRN-AM (1490)** and its associated FM operations in Marion, Ohio since **December 1940**.
 
-Founded in **December 1940**, WMRN has served north-central Ohio for generations through news, music, sports, and community service. This archive preserves that legacy through **photographs, documents, broadcast recordings, ephemera, and documented research**.
+The WMRN Radio History Archive is an independent historical repository dedicated to documenting the station’s institutional history, technical evolution, programming eras, and the individuals who shaped its voice across generations.
 
-Materials are collected from **public records** and **private collections** and are presented for educational and historical documentation purposes.
+Through structured accessioning and documented research, the Archive preserves photographs, broadcast recordings, studio artifacts, printed materials, and archival records before they are lost to time.
 
 ---
 
-## Explore the Archive
+## Explore the Collections
+
+The Archive is organized into structured historical categories to support research, preservation, and public exploration.
 
 ---
 
@@ -24,7 +26,7 @@ Materials are collected from **public records** and **private collections** and 
 
 ![Original WMRN facilities and early broadcast infrastructure](/images/homepage/station-history.jpeg)
 
-Ownership, call letters, format changes, regulatory milestones, and institutional developments from WMRN’s founding in 1940 through the present era.
+Ownership history, call letters, regulatory filings, format transitions, frequency changes, and major institutional developments from 1940 to the present.
 
 <a href="/station-history/" class="home-button">Explore Station History</a>
 
@@ -34,7 +36,7 @@ Ownership, call letters, format changes, regulatory milestones, and institutiona
 
 ![WMRN transmission tower and broadcast facilities](/images/homepage/facilities-equipment.jpeg)
 
-Studios, transmission towers, engineering records, blueprints, photographs, and technical documentation related to WMRN’s physical broadcast infrastructure.
+Studio locations, transmission infrastructure, engineering documentation, equipment evolution, and technical records associated with WMRN’s physical broadcast operations.
 
 <a href="/facilities-equipment/" class="home-button">Explore Facilities & Equipment</a>
 
@@ -44,30 +46,30 @@ Studios, transmission towers, engineering records, blueprints, photographs, and 
 
 ![Vintage WMRN microphone and network-era broadcast branding](/images/homepage/people-programming.jpeg)
 
-Air personalities, engineers, newsroom staff, programming eras, slogans, and defining broadcast moments that shaped WMRN on the air.
+Air personalities, newsroom staff, producers, engineers, programming eras, promotional campaigns, and defining on-air moments.
 
 <a href="/people-programming/" class="home-button">Explore People & Programming</a>
 
 ---
 
-### Browse the Archive
+### Archival Records
 
-Individual archival records including photographs, audio recordings, documents, advertisements, and ephemera cataloged as discrete entries.
+Documented materials cataloged through structured accession standards, including photographs, audio recordings, printed documents, advertisements, and historical ephemera.
 
-<a href="/browse-the-archive/" class="home-button">Browse Archival Records</a>
+<a href="/accessions/" class="home-button">View the Accession Register</a>
 
 ---
 
-### About the Archive
+### The Archive
 
-Scope, collection policy, provenance standards, archival methodology, and project background.
+Institutional scope, collection policy, research standards, and archival methodology.
 
 <a href="/about/" class="home-button">Learn About the Archive</a>
 
 ---
 
-## Archival Statement
+## A Living Historical Record
 
-This is a **living archive**. Materials are added as they are identified, documented, verified, and preserved.
+This is an active and expanding archival initiative. Materials are added as they are identified, documented, verified, and preserved according to structured cataloging standards.
 
-WMRN-AM and WMRN-FM are referenced for historical documentation purposes. The WMRN Radio History Archive operates independently as a preservation initiative dedicated to safeguarding Marion’s broadcast history.
+The WMRN Radio History Archive operates independently as a long-term preservation effort. All references to WMRN-AM and associated stations are presented for historical and educational documentation purposes.

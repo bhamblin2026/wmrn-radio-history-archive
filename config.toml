@@ -143,14 +143,14 @@ mainSections = [
   # Collections
   # --------------------
 
-  [[menu.main]]
-    identifier = "collections"
-    name = "Collections"
-    pageRef = "/accessions/"
-    weight = 3
+ [[menu.main]]
+  identifier = "collections"
+  name = "Collections"
+  pageRef = "/collections/"
+  weight = 3
 
   [[menu.main]]
-    parent = "collections"
+  parent = "collections"
     name = "Browse the Archive"
     pageRef = "/browse-the-archive/"
     weight = 1

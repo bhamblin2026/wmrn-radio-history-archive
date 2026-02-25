@@ -31,5 +31,3 @@ Group of four digital photographs depicting Joe Ionno in association with WMRN, 
 ## Archival Notes
 
 Condition: Good (digital image; original condition unknown)
-
-Restrictions: '

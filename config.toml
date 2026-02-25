@@ -198,11 +198,21 @@ mainSections = [
   # Exhibits
   # --------------------
 
+    # --------------------
+  # Exhibits
+  # --------------------
+
   [[menu.main]]
     identifier = "exhibits"
     name = "Exhibits"
     pageRef = "/exhibits/"
     weight = 5
+
+  [[menu.main]]
+    parent = "exhibits"
+    name = "Buckeye Chuck"
+    pageRef = "/exhibits/buckeye-chuck-groundhog-day/"
+    weight = 1
 
   # --------------------
   # Podcast

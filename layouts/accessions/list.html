@@ -3,38 +3,66 @@
 <h1>{{ .Title }}</h1>
 
 {{ if .Content }}
-  <div class="section-intro" style="margin-bottom: 2rem;">
+  <div class="section-intro" style="margin-bottom: 1.5rem;">
     {{ .Content }}
   </div>
 {{ end }}
 
-<div style="border-top: 1px solid #ddd; margin: 2rem 0;"></div>
+<div style="margin: 1.5rem 0; border-top: 1px solid currentColor; opacity: 0.15;"></div>
 
 {{ range sort .Pages "Params.accession_id" "desc" }}
 
-  <article style="padding: 1.75rem 0; border-bottom: 1px solid #e5e5e5;">
+  <article style="
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid currentColor;
+    opacity: 0.95;
+  ">
 
-    {{ with .Params.accession_id }}
-      <div style="font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; color: #777; margin-bottom: 0.5rem;">
-        {{ . }}
+    {{ with .Params.featured_image }}
+      <div style="flex: 0 0 140px;">
+        <a href="{{ $.RelPermalink }}">
+          <img
+            src="{{ . }}"
+            alt="{{ $.Title }}"
+            style="width: 100%; height: auto; display: block; border: 1px solid currentColor; opacity: 0.85;"
+          >
+        </a>
       </div>
     {{ end }}
 
-    <h2 style="margin: 0 0 0.75rem 0;">
-      <a href="{{ .RelPermalink }}" style="text-decoration: none;">
-        {{ .Title }}
-      </a>
-    </h2>
+    <div style="flex: 1; min-width: 0;">
 
-    {{ with .Params.summary }}
-      <p style="margin: 0 0 0.75rem 0; color: #444;">
-        {{ . }}
-      </p>
-    {{ end }}
+      {{ with .Params.accession_id }}
+        <div style="
+          font-size: 0.8rem;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          opacity: 0.7;
+          margin-bottom: 0.35rem;
+        ">
+          {{ . }}
+        </div>
+      {{ end }}
 
-    <a href="{{ .RelPermalink }}" style="font-size: 0.9rem;">
-      View Full Record →
-    </a>
+      <h2 style="margin: 0 0 0.5rem 0; font-size: 1.15rem; line-height: 1.25;">
+        <a href="{{ .RelPermalink }}" style="text-decoration: none;">
+          {{ .Title }}
+        </a>
+      </h2>
+
+      {{ with .Params.summary }}
+        <p style="margin: 0; opacity: 0.85; line-height: 1.5;">
+          {{ . }}
+        </p>
+      {{ end }}
+
+      <div style="margin-top: 0.65rem; font-size: 0.9rem; opacity: 0.8;">
+        <a href="{{ .RelPermalink }}">View full record →</a>
+      </div>
+
+    </div>
 
   </article>
 

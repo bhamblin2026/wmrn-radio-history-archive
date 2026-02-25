@@ -112,31 +112,103 @@ mainSections = [
     pageRef = "/"
     weight = 1
 
+  # --------------------
+  # The Archive (Institutional Core)
+  # --------------------
+
   [[menu.main]]
-    name = "Portal"
-    pageRef = "/portal/"
+    identifier = "archive"
+    name = "The Archive"
+    pageRef = "/about/"
     weight = 2
+
+  [[menu.main]]
+    parent = "archive"
+    name = "Mission & Overview"
+    pageRef = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    parent = "archive"
+    name = "Collection Policy"
+    pageRef = "/collection-policy/"
+    weight = 2
+
+  [[menu.main]]
+    parent = "archive"
+    name = "Access & Use"
+    pageRef = "/access-and-use/"
+    weight = 3
+
+  # --------------------
+  # Collections
+  # --------------------
+
+  [[menu.main]]
+    identifier = "collections"
+    name = "Collections"
+    pageRef = "/accessions/"
+    weight = 3
+
+  [[menu.main]]
+    parent = "collections"
+    name = "Browse the Archive"
+    pageRef = "/browse-the-archive/"
+    weight = 1
+
+  [[menu.main]]
+    parent = "collections"
+    name = "Facilities & Equipment"
+    pageRef = "/facilities-equipment/"
+    weight = 2
+
+  # --------------------
+  # History
+  # --------------------
+
+  [[menu.main]]
+    identifier = "history"
+    name = "History"
+    pageRef = "/station-history/"
+    weight = 4
+
+  [[menu.main]]
+    parent = "history"
+    name = "Founding of WMRN"
+    pageRef = "/founding-of-wmrn/"
+    weight = 1
+
+  [[menu.main]]
+    parent = "history"
+    name = "People & Programming"
+    pageRef = "/people-programming/"
+    weight = 2
+
+  # --------------------
+  # Podcast
+  # --------------------
 
   [[menu.main]]
     name = "Podcast"
     pageRef = "/podcast/"
-    weight = 3
+    weight = 5
+
+  # --------------------
+  # Contribute
+  # --------------------
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    pageRef = "/about/"
-    weight = 4
-
-  [[menu.main]]
-    parent = "about"
     name = "Contribute"
     pageRef = "/contribute-materials/"
-    weight = 1
+    weight = 6
+
+  # --------------------
+  # Footer Only
+  # --------------------
 
   [[menu.footer]]
-    name = "Access & Use Policy"
-    pageRef = "/access-and-use/"
+    name = "Portal"
+    pageRef = "/portal/"
     weight = 1
 
 [taxonomies]

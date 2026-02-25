@@ -7,7 +7,7 @@ outputs:
   - JSON
 ---
 
-## WMRN Radio History Archive — Accessions
+## WMRN Radio History Archive - Accessions
 
 Every item preserved by the WMRN Radio History Archive is formally cataloged as an accession record.
 

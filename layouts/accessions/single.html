@@ -2,6 +2,18 @@
 
 <h1>{{ .Title }}</h1>
 
+{{ with .Params.featured_image }}
+  <div style="margin: 2rem 0; text-align: center;">
+    <img src="{{ . }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto; border: 1px solid #ddd; padding: 4px; background: #fff;">
+    
+    {{ with $.Params.featured_image_caption }}
+      <div style="margin-top: 0.75rem; font-size: 0.9rem; color: #666; font-style: italic;">
+        {{ . }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
+
 <div style="margin-bottom: 2.5rem; padding: 2rem; background: #f8f8f8; border: 1px solid #ddd;">
 
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;">

@@ -91,26 +91,40 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+
   const buttons = document.querySelectorAll(".filter-btn");
   const items = document.querySelectorAll(".accession-item");
+  const searchInput = document.getElementById("accession-search");
+
+  function filterItems() {
+    const activeFilter = document.querySelector(".filter-btn.active").getAttribute("data-filter");
+    const searchTerm = searchInput.value.toLowerCase();
+
+    items.forEach(item => {
+      const type = item.getAttribute("data-type");
+      const text = item.innerText.toLowerCase();
+
+      const matchesFilter = (activeFilter === "all") || (type === activeFilter);
+      const matchesSearch = text.includes(searchTerm);
+
+      if (matchesFilter && matchesSearch) {
+        item.style.display = "flex";
+      } else {
+        item.style.display = "none";
+      }
+    });
+  }
 
   buttons.forEach(button => {
     button.addEventListener("click", () => {
-      const filter = button.getAttribute("data-filter");
-
       buttons.forEach(btn => btn.classList.remove("active"));
       button.classList.add("active");
-
-      items.forEach(item => {
-        if (filter === "all") {
-          item.style.display = "flex";
-        } else {
-          const type = item.getAttribute("data-type");
-          item.style.display = type === filter ? "flex" : "none";
-        }
-      });
+      filterItems();
     });
   });
+
+  searchInput.addEventListener("input", filterItems);
+
 });
 </script>
 

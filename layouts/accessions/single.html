@@ -2,45 +2,69 @@
 
 <h1>{{ .Title }}</h1>
 
-<div style="margin-bottom: 2rem; padding: 1.5rem; background: #f5f5f5; border-left: 4px solid #1f2f4a;">
-  
-  {{ with .Params.accession_id }}
-  <p><strong>Accession ID:</strong> {{ . }}</p>
-  {{ end }}
+<div style="margin-bottom: 2.5rem; padding: 2rem; background: #f8f8f8; border: 1px solid #ddd;">
 
-  {{ with .Params.year }}
-  <p><strong>Year:</strong> {{ . }}</p>
-  {{ end }}
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;">
 
-  {{ with .Params.media_type }}
-  <p><strong>Format:</strong>
-    {{ range . }}{{ . }} {{ end }}
-  </p>
-  {{ end }}
-
-  {{ with .Params.collection }}
-  <p><strong>Collection:</strong> {{ . }}</p>
-  {{ end }}
-
-  {{ with .Params.status }}
-  <p><strong>Status:</strong> {{ . }}</p>
-  {{ end }}
-
-  {{ with .Params.people }}
-  <p><strong>Associated Individuals:</strong>
-    {{ range $index, $person := . }}
-      {{ if $index }}, {{ end }}{{ $person }}
+    {{ with .Params.accession_id }}
+    <div>
+      <strong>Accession ID</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
-  </p>
-  {{ end }}
 
-  {{ with .Params.source }}
-  <p><strong>Source:</strong> {{ . }}</p>
-  {{ end }}
+    {{ with .Params.year }}
+    <div>
+      <strong>Year</strong><br>
+      {{ . }}
+    </div>
+    {{ end }}
 
-  {{ with .Params.rights }}
-  <p><strong>Rights:</strong> {{ . }}</p>
-  {{ end }}
+    {{ with .Params.media_type }}
+    <div>
+      <strong>Format</strong><br>
+      {{ range . }}{{ . }} {{ end }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.collection }}
+    <div>
+      <strong>Collection</strong><br>
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.status }}
+    <div>
+      <strong>Status</strong><br>
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.source }}
+    <div>
+      <strong>Source</strong><br>
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.rights }}
+    <div>
+      <strong>Rights</strong><br>
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.people }}
+    <div style="grid-column: span 2;">
+      <strong>Associated Individuals</strong><br>
+      {{ range $index, $person := . }}
+        {{ if $index }}, {{ end }}{{ $person }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+  </div>
 
 </div>
 

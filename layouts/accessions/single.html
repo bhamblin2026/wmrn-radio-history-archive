@@ -3,77 +3,111 @@
 <h1>{{ .Title }}</h1>
 
 {{ with .Params.featured_image }}
-  <figure style="margin: 2rem 0 2.5rem 0; text-align: center;">
+  <figure class="accession-figure">
     <img 
       src="{{ . }}" 
       alt="{{ $.Title }}" 
-      style="max-width: 720px; width: 100%; height: auto; border: 1px solid #ccc; padding: 6px; background: #fff;"
+      class="accession-image"
     >
 
     {{ with $.Params.featured_image_caption }}
-      <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666; font-style: italic;">
+      <figcaption class="accession-caption">
         {{ . }}
       </figcaption>
     {{ end }}
   </figure>
 {{ end }}
 
-<div style="margin-bottom: 2.5rem; padding: 2rem; background: #f8f8f8; border: 1px solid #ddd;">
+<div class="accession-meta-wrapper">
 
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;">
+  <div class="accession-meta-grid">
 
     {{ with .Params.accession_id }}
-    <div><strong>Accession ID</strong><br>{{ . }}</div>
+    <div>
+      <strong>Accession ID</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.year }}
-    <div><strong>Date (Creation/Broadcast)</strong><br>{{ . }}</div>
+    <div>
+      <strong>Date (Creation/Broadcast)</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.media_type }}
-    <div><strong>Item Type</strong><br>{{ range . }}{{ . }} {{ end }}</div>
+    <div>
+      <strong>Item Type</strong><br>
+      {{ range . }}{{ . }} {{ end }}
+    </div>
     {{ end }}
 
     {{ with .Params.collection }}
-    <div><strong>Collection</strong><br>{{ . }}</div>
+    <div>
+      <strong>Collection</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.status }}
-    <div><strong>Processing Status</strong><br>{{ . }}</div>
+    <div>
+      <strong>Processing Status</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.condition }}
-    <div><strong>Condition</strong><br>{{ . }}</div>
+    <div>
+      <strong>Condition</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.source }}
-    <div><strong>Source / Donor</strong><br>{{ . }}</div>
+    <div>
+      <strong>Source / Donor</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.rights }}
-    <div><strong>Rights Status</strong><br>{{ . }}</div>
+    <div>
+      <strong>Rights Status</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.access_level }}
-    <div><strong>Access Level</strong><br>{{ . }}</div>
+    <div>
+      <strong>Access Level</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.physical_location }}
-    <div><strong>Physical Location</strong><br>{{ . }}</div>
+    <div>
+      <strong>Physical Location</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.digital_location }}
-    <div><strong>Digital Location</strong><br>{{ . }}</div>
+    <div>
+      <strong>Digital Location</strong><br>
+      {{ . }}
+    </div>
     {{ end }}
 
     {{ with .Params.restrictions }}
-    <div style="grid-column: span 2;">
-      <strong>Restrictions</strong><br>{{ . }}
+    <div class="span-2">
+      <strong>Restrictions</strong><br>
+      {{ . }}
     </div>
     {{ end }}
 
     {{ with .Params.people }}
-    <div style="grid-column: span 2;">
+    <div class="span-2">
       <strong>Associated Entities</strong><br>
       {{ range $index, $person := . }}
         {{ if $index }}, {{ end }}{{ $person }}

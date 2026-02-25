@@ -1929,32 +1929,6 @@ body {
   }
 }
 
-.accession-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 2rem;
-}
-
-.accession-card {
-  padding: 1.25rem;
-  border: 1px solid var(--border-color, #ccc);
-  background: var(--card-bg, transparent);
-}
-
-.accession-card img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-.accession-id {
-  font-size: 0.8rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  opacity: 0.7;
-  margin-bottom: 0.5rem;
-}
-
 body {
   border: 10px solid red !important;
 }

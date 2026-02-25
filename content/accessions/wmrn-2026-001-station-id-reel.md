@@ -3,7 +3,7 @@ title: "WMRN-AM 1490 Station ID Reel"
 accession_id: "WMRN-2026-001"
 date: 2026-02-25
 year: 1994
-type:
+media_type:
   - Audio
 collection: "Station IDs"
 status: "Cataloged"

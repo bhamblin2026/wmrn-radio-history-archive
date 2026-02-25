@@ -1,7 +1,10 @@
 ---
-title = "Accessions"
-description = "Official cataloged accessions preserved by the WMRN Radio History Archive."
-layout = "section"
+title: "Accessions"
+description: "Official cataloged accessions preserved by the WMRN Radio History Archive."
+searchable: true
+outputs:
+  - HTML
+  - JSON
 ---
 
 ## WMRN Radio History Archive — Accessions

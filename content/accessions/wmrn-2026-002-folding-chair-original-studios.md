@@ -5,7 +5,8 @@ date: 2026-02-25
 year: 1940
 media_type:
   - Furniture
-collection: "Studio Artifacts"
+collection:
+  - Studio Artifacts
 status: "Complete"
 summary: "Original metal folding chair used in the WMRN radio studio during the 1940s."
 people:

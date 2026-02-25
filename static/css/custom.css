@@ -1932,3 +1932,16 @@ body {
 body {
   border: 10px solid red !important;
 }
+
+.filter-btn {
+  padding: 0.4rem 0.9rem;
+  border: 1px solid currentColor;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.filter-btn.active {
+  background: currentColor;
+  color: #fff;
+}

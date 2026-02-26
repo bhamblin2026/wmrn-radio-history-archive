@@ -1,6 +1,5 @@
 ---
 title: "People & Programming"
-layout: page
 searchable: true
 description: "Documented broadcasters, staff, and programming eras associated with WMRN-AM (1490) and its affiliated FM operations."
 ---

@@ -24,10 +24,13 @@
     </nav>
     {{ end }}
 
+    <div class="footer__disclaimer">
+      The WMRN Radio History Archive is an independent historical preservation project. It is not affiliated with, endorsed by, or operated by the current or former owners of WMRN, WMRN-FM, or any associated entities.
+    </div>
+
     <div class="footer__copyright">
       {{ .Site.Params.copyright | default (printf "© %d %s" now.Year .Site.Title) }}
     </div>
 
   </div>
-
 </footer>

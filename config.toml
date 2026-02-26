@@ -113,7 +113,7 @@ mainSections = [
     weight = 1
 
   # --------------------
-  # The Archive (Parent Only)
+  # The Archive
   # --------------------
 
   [[menu.main]]
@@ -184,7 +184,7 @@ mainSections = [
 
   [[menu.main]]
     parent = "history"
-    name = "Historical Timeline"
+    name = "Station Timeline"
     pageRef = "/history/station-timeline/"
     weight = 3
 
@@ -195,10 +195,6 @@ mainSections = [
     weight = 4
 
   # --------------------
-  # Exhibits
-  # --------------------
-
-    # --------------------
   # Exhibits
   # --------------------
 

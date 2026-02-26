@@ -1,64 +1,78 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
+<main class="main" role="main">
 
-<div style="margin: 1.5rem 0; border-top: 1px solid currentColor; opacity: 0.15;"></div>
+  <article class="content main__content clearfix">
 
-{{ range sort .Pages "Params.accession_id" "desc" }}
+    <h1>{{ .Title }}</h1>
 
-  <article style="
-    display: flex;
-    gap: 1.25rem;
-    padding: 1.5rem 0;
-    border-bottom: 1px solid currentColor;
-  ">
-
-    {{ with .Params.featured_image }}
-      <div style="flex: 0 0 140px;">
-        <a href="{{ $.RelPermalink }}">
-          <img
-            src="{{ . }}"
-            alt="{{ $.Title }}"
-            style="width: 100%; height: auto; display: block; border: 1px solid currentColor; opacity: 0.85;"
-          >
-        </a>
+    {{ if .Content }}
+      <div style="margin: 1rem 0 1.5rem 0;">
+        {{ .Content }}
       </div>
     {{ end }}
 
-    <div style="flex: 1; min-width: 0;">
+    <div style="margin: 1.5rem 0; border-top: 1px solid currentColor; opacity: 0.15;"></div>
 
-      {{ with .Params.accession_id }}
-        <div style="
-          font-size: 0.8rem;
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
-          opacity: 0.7;
-          margin-bottom: 0.35rem;
-        ">
-          {{ . }}
+    {{ range sort .Pages "Params.accession_id" "desc" }}
+
+      <article style="
+        display: flex;
+        gap: 1.25rem;
+        padding: 1.5rem 0;
+        border-bottom: 1px solid currentColor;
+      ">
+
+        {{ with .Params.featured_image }}
+          <div style="flex: 0 0 140px;">
+            <a href="{{ $.RelPermalink }}">
+              <img
+                src="{{ . }}"
+                alt="{{ $.Title }}"
+                style="width: 100%; height: auto; display: block; border: 1px solid currentColor; opacity: 0.85;"
+              >
+            </a>
+          </div>
+        {{ end }}
+
+        <div style="flex: 1; min-width: 0;">
+
+          {{ with .Params.accession_id }}
+            <div style="
+              font-size: 0.8rem;
+              letter-spacing: 0.08em;
+              text-transform: uppercase;
+              opacity: 0.7;
+              margin-bottom: 0.35rem;
+            ">
+              {{ . }}
+            </div>
+          {{ end }}
+
+          <h2 style="margin: 0 0 0.5rem 0; font-size: 1.15rem; line-height: 1.25;">
+            <a href="{{ .RelPermalink }}" style="text-decoration: none;">
+              {{ .Title }}
+            </a>
+          </h2>
+
+          {{ with .Params.summary }}
+            <p style="margin: 0; opacity: 0.85; line-height: 1.5;">
+              {{ . }}
+            </p>
+          {{ end }}
+
+          <div style="margin-top: 0.65rem; font-size: 0.9rem; opacity: 0.8;">
+            <a href="{{ .RelPermalink }}">View full record →</a>
+          </div>
+
         </div>
-      {{ end }}
 
-      <h2 style="margin: 0 0 0.5rem 0; font-size: 1.15rem; line-height: 1.25;">
-        <a href="{{ .RelPermalink }}" style="text-decoration: none;">
-          {{ .Title }}
-        </a>
-      </h2>
+      </article>
 
-      {{ with .Params.summary }}
-        <p style="margin: 0; opacity: 0.85; line-height: 1.5;">
-          {{ . }}
-        </p>
-      {{ end }}
-
-      <div style="margin-top: 0.65rem; font-size: 0.9rem; opacity: 0.8;">
-        <a href="{{ .RelPermalink }}">View full record →</a>
-      </div>
-
-    </div>
+    {{ end }}
 
   </article>
 
-{{ end }}
+</main>
 
 {{ end }}

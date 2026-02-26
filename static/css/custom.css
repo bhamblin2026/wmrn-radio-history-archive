@@ -2031,10 +2031,10 @@ html[data-theme="dark"] .accession-image {
 }
 
 .footer__disclaimer {
-  margin: 1.25rem auto 0 auto;
+  margin: 0.9rem auto 0 auto;
   max-width: 720px;
-  font-size: 0.85rem;
-  opacity: 0.7;
-  line-height: 1.5;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  line-height: 1.4;
   text-align: center;
 }

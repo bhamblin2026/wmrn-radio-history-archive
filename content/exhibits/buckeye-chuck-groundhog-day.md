@@ -6,7 +6,7 @@ description: "A curated historical exhibit documenting the origins, broadcast ev
 ---
 
 # Digital Exhibit  
-## Buckeye Chuck & Groundhog Day on WMRN
+## Buckeye Chuck: A WMRN Groundhog Day Tradition
 
 Buckeye Chuck is one of the most enduring broadcast traditions associated with WMRN-AM (1490) and the Marion, Ohio community.
 

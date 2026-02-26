@@ -185,7 +185,7 @@ mainSections = [
   [[menu.main]]
     parent = "history"
     name = "Historical Timeline"
-    pageRef = "/history/timeline/"
+    pageRef = "/history/station-timeline/"
     weight = 3
 
   [[menu.main]]

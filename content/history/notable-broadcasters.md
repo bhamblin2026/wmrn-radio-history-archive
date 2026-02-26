@@ -18,17 +18,22 @@ Inclusion reflects documented association and historical significance. This list
 ### Cole, Terry  
 News and production staff member during the 1990s. Contributed to newsroom operations and station production during a period of operational and programming transition.
 
+
 ### Evers, Charlie
 Broadcaster associated with WMRN beginning in 1952, becoming an on-air personality in 1968. In 1969, he helped establish the WMRN Peanut Push, a fundraising initiative supporting the Junior Service Guild’s Christmas Clearinghouse, and was instrumental in the creation of Ohio’s official weather-predicting groundhog, Buckeye Chuck. In 1979, the Ohio General Assembly formally recognized Buckeye Chuck as Ohio’s official weather prognosticator. Evers was widely known for local news coverage, community engagement, and documented service during the Blizzard of 1978. He was inducted into the Broadcasters Hall of Fame in 2012.
+
 
 ### James, Paul  
 Long-standing on-air presence associated with continuity programming into later operational eras.
 
+
 ### Ruth, Jeff  
 Morning show host and on-air personality associated with local programming initiatives during the late twentieth century.
 
+
 ### Shawver, Scott  
 Broadcaster active during a period of format and operational evolution.
+
 
 ### Turner, Mark  
 On-air talent associated with later-era programming shifts.

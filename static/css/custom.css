@@ -2030,11 +2030,11 @@ html[data-theme="dark"] .accession-image {
   border-color: rgba(255,255,255,0.15);
 }
 
-/* Footer Disclaimer */
-
 .footer__disclaimer {
-  margin-top: 1.25rem;
+  margin: 1.25rem auto 0 auto;
+  max-width: 720px;
   font-size: 0.85rem;
   opacity: 0.7;
   line-height: 1.5;
+  text-align: center;
 }

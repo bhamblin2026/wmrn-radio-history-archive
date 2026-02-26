@@ -2029,3 +2029,12 @@ html[data-theme="dark"] .accession-image {
   background: #111;
   border-color: rgba(255,255,255,0.15);
 }
+
+/* Footer Disclaimer */
+
+.footer__disclaimer {
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  line-height: 1.5;
+}

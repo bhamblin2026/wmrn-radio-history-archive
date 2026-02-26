@@ -4,8 +4,6 @@ searchable: true
 description: "Documented broadcasters, staff, and programming eras associated with WMRN-AM (1490) and WMRN-FM in Marion, Ohio."
 ---
 
-# People & Programming
-
 WMRN’s institutional identity has been shaped not only by its ownership and facilities, but by the individuals who worked behind the microphone, in the newsroom, in engineering rooms, and in management offices.
 
 This page documents personnel and programming eras associated with WMRN-AM (1490) and WMRN-FM in Marion, Ohio. Inclusion reflects verified association and historical documentation. The record will expand as additional materials are accessioned and confirmed.

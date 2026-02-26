@@ -1,49 +1,43 @@
 ---
 title: "People & Programming"
 searchable: true
-description: "Documented broadcasters, staff, and programming eras associated with WMRN-AM (1490) and its affiliated FM operations."
+description: "Documented broadcasters, staff, and programming eras associated with WMRN-AM (1490) and WMRN-FM in Marion, Ohio."
 ---
 
 # People & Programming
 
 WMRN’s institutional identity has been shaped not only by its ownership and facilities, but by the individuals who worked behind the microphone, in the newsroom, in engineering rooms, and in management offices.
 
-This page documents personnel and programming eras associated with WMRN-AM (1490) and its affiliated FM operations. Inclusion reflects verified association and historical documentation. The record will expand as additional materials are accessioned and confirmed.
-
----
+This page documents personnel and programming eras associated with WMRN-AM (1490) and WMRN-FM in Marion, Ohio. Inclusion reflects verified association and historical documentation. The record will expand as additional materials are accessioned and confirmed.
 
 ## Broadcasters & On-Air Personnel
 
 Individuals documented as contributing to WMRN’s on-air presence are listed alphabetically.
 
-### Cole, Terry  
+### Cole, Terry
 News and production staff member during the 1990s. Contributed to newsroom operations and station production during a transitional era in local broadcasting.
 
-### Evers, Charlie  
+### Evers, Charlie
 Broadcaster associated with local news and severe weather coverage, including service during the Blizzard of 1978.
 
-### James, Paul  
+### James, Paul
 Long-standing on-air presence associated with continuity programming into later operational eras.
 
-### Ruth, Jeff  
+### Ruth, Jeff
 Morning show host and on-air personality associated with local programming initiatives during the late twentieth century.
 
-### Shawver, Scott  
+### Shawver, Scott
 Broadcaster active during a period of format and operational evolution.
 
-### Turner, Mark  
+### Turner, Mark
 On-air talent associated with later-era programming shifts.
-
----
 
 ## News & Sports Personnel
 
-### Stevenson, Jim  
+### Stevenson, Jim
 Sports broadcaster associated with local athletic coverage and regional sports programming.
 
 Additional newsroom and sports contributors will be added as documentation is verified.
-
----
 
 ## Engineering & Technical Staff
 
@@ -51,15 +45,11 @@ Engineering personnel and operations staff played a critical role in maintaining
 
 Documented technical staff will be listed alphabetically as archival records expand.
 
----
-
 ## Management & Ownership
 
 Station leadership and management transitions significantly shaped WMRN’s operational direction, programming strategy, and community role.
 
 Documented leadership figures will be listed alphabetically as records are confirmed.
-
----
 
 ## Programming Eras
 
@@ -73,19 +63,17 @@ Major eras include:
 - Technical modernization and FM development (2000s)
 - Digital adaptation and contemporary operations (2010s–present)
 
-Specific programs, promotional initiatives, and defining broadcast moments are documented throughout the Archive and linked via accession records where available.
-
----
+Specific programs, promotional initiatives, and defining broadcast moments are documented as archival materials are verified and accessioned.
 
 ## Documentation Standards
 
 Biographical summaries and programming references are based on:
 
-- Archival recordings  
-- Station promotional materials  
-- Newspaper coverage  
-- Regulatory filings  
-- Public records  
-- Contributor documentation  
+- Archival recordings
+- Station promotional materials
+- Newspaper coverage
+- Regulatory filings
+- Public records
+- Contributor documentation
 
-Corrections, service dates, and contextual additions are welcomed to strengthen historical accuracy. 
+Corrections, service dates, and contextual additions are welcomed to strengthen historical accuracy.

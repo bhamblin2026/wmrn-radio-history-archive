@@ -89,4 +89,4 @@ Biographical summaries and programming references are based on:
 - Public records  
 - Contributor documentation  
 
-Corrections, service dates, and contextual additions are welcomed to strengthen historical accuracy.
+Corrections, service dates, and contextual additions are welcomed to strengthen historical accuracy. 

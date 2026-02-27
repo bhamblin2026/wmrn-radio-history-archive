@@ -2114,3 +2114,7 @@ figcaption {
   padding-top: 1.5rem;
 }
 
+.content p {
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}

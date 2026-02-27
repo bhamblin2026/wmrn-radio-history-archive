@@ -7,6 +7,12 @@ description: "Historical documentation of Buckeye Chuck, Ohio’s official weath
 
 # Buckeye Chuck: A WMRN Groundhog Day Tradition
 
+{{< figure 
+  src="/images/exhibits/buckeye-chuck/buckeye-chuck.jpg" 
+  alt="Buckeye Chuck inside ceremonial enclosure with Buckeye Chuck signage" 
+  caption="Buckeye Chuck within ceremonial enclosure used during Groundhog Day broadcast coverage. Photograph preserved as part of exhibit documentation." 
+>}}
+
 Buckeye Chuck is Ohio’s official weather-predicting groundhog and one of the most enduring broadcast traditions associated with WMRN-AM (1490) in Marion, Ohio.
 
 The tradition was established in 1969 through the initiative of WMRN broadcaster Charlie Evers. At the time, Punxsutawney, Pennsylvania’s Groundhog Day ceremony dominated national attention. Evers believed Ohio should have its own officially recognized prognosticating groundhog and initiated the creation of Buckeye Chuck as a locally rooted alternative integrated directly into WMRN programming.

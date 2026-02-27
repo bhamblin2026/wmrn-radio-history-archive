@@ -9,8 +9,8 @@ description: "Historical documentation of Buckeye Chuck, Ohio’s official weath
 
 {{< figure 
   src="/images/exhibits/buckeye-chuck/buckeye-chuck.jpg" 
-  alt="Buckeye Chuck inside ceremonial enclosure with Buckeye Chuck signage" 
-  caption="Buckeye Chuck within ceremonial enclosure used during Groundhog Day broadcast coverage. Photograph preserved as part of exhibit documentation." 
+  alt="Buckeye Chuck within ceremonial enclosure during Groundhog Day broadcast coverage" 
+  caption="Buckeye Chuck within ceremonial enclosure during Groundhog Day broadcast coverage. Archival photograph preserved by the WMRN Radio History Archive." 
 >}}
 
 Buckeye Chuck is Ohio’s official weather-predicting groundhog and one of the most enduring broadcast traditions associated with WMRN-AM (1490) in Marion, Ohio.

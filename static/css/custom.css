@@ -2118,3 +2118,9 @@ figcaption {
   line-height: 1.65;
   margin-bottom: 1rem;
 }
+
+.content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}

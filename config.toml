@@ -207,7 +207,7 @@ mainSections = [
   [[menu.main]]
     parent = "exhibits"
     name = "Buckeye Chuck"
-    pageRef = "/exhibits/buckeye-chuck-groundhog-day/"
+    pageRef = "/exhibits/buckeye-chuck/"
     weight = 1
 
   # --------------------

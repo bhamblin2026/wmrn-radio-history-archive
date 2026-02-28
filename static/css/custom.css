@@ -2140,62 +2140,91 @@ figcaption {
 }
 
 /* ===================================================== */
-/* WMRN Global Brand Color Override */
+/* WMRN Global Brand Color System */
 /* Primary Brand Blue: #7295B7 */
-/* Hover/Darker Variant: #5F7FA0 */
+/* Hover Variant: #5F7FA0 */
 /* ===================================================== */
 
 :root {
   --wmrn-blue: #7295B7;
   --wmrn-blue-hover: #5F7FA0;
+
+  /* Override theme accent variables directly */
+  --color-accent: #7295B7;
+  --color-accent-hover: #5F7FA0;
 }
 
 
 /* ===================================================== */
-/* WMRN Navigation – White Base / Blue Active */
+/* NAVIGATION – Adaptive Light/Dark with WMRN Blue */
 /* ===================================================== */
 
-/* Main navigation background */
+/* Remove any previous forced backgrounds */
 .menu,
-.menu__list {
-  background-color: #ffffff !important;
+.menu__list,
+.menu__item {
+  background: transparent !important;
 }
 
-/* Default nav link appearance */
+/* Default link color (Light Mode) */
 .menu__link {
-  color: #000000 !important;
-  background-color: transparent !important;
+  color: #000000;
 }
 
-/* Hover + Active state */
+/* Hover + Active */
 .menu__link:hover,
 .menu__item--active > .menu__link {
-  background-color: #7295B7 !important;
-  color: #ffffff !important;
-}
-
-/* Remove any leftover borders from prior overrides */
-.menu {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: var(--wmrn-blue);
+  color: #ffffff;
 }
 
 
-/* ========================= */
-/* Scrolling Timeline Banner */
-/* ========================= */
+/* ===================================================== */
+/* DARK MODE NAVIGATION */
+/* ===================================================== */
+
+@media (prefers-color-scheme: dark) {
+
+  .menu__link {
+    color: #ffffff;
+  }
+
+  .menu__link:hover,
+  .menu__item--active > .menu__link {
+    background-color: var(--wmrn-blue);
+    color: #ffffff;
+  }
+
+}
+
+
+/* ===================================================== */
+/* MOBILE TAP STATES */
+/* ===================================================== */
+
+.menu__link:active,
+.menu__link:focus {
+  background-color: var(--wmrn-blue);
+  color: #ffffff;
+}
+
+
+/* ===================================================== */
+/* SCROLLING TIMELINE BANNER */
+/* ===================================================== */
 
 .wmrn-banner {
-  background-color: var(--wmrn-blue) !important;
+  background-color: var(--wmrn-blue);
 }
 
 .wmrn-banner-content {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 
-/* ========================= */
-/* Links Site-Wide */
-/* ========================= */
+/* ===================================================== */
+/* SITE-WIDE LINKS */
+/* ===================================================== */
 
 a {
   color: var(--wmrn-blue);
@@ -2206,9 +2235,9 @@ a:hover {
 }
 
 
-/* ========================= */
-/* Buttons */
-/* ========================= */
+/* ===================================================== */
+/* BUTTONS */
+/* ===================================================== */
 
 button,
 .button,
@@ -2229,18 +2258,18 @@ button:hover,
 }
 
 
-/* ========================= */
-/* Section Headings Accents */
-/* ========================= */
+/* ===================================================== */
+/* SECTION HEADING ACCENTS */
+/* ===================================================== */
 
 .content h2 {
   border-bottom-color: rgba(114, 149, 183, 0.35);
 }
 
 
-/* ========================= */
-/* Pagination */
-/* ========================= */
+/* ===================================================== */
+/* PAGINATION */
+/* ===================================================== */
 
 .pagination__item--active {
   background-color: var(--wmrn-blue);
@@ -2249,9 +2278,9 @@ button:hover,
 }
 
 
-/* ========================= */
-/* Tags & Taxonomy Links */
-/* ========================= */
+/* ===================================================== */
+/* TAGS & TAXONOMY */
+/* ===================================================== */
 
 .tag,
 .taxonomy-term {
@@ -2267,9 +2296,9 @@ button:hover,
 }
 
 
-/* ========================= */
-/* Form Elements */
-/* ========================= */
+/* ===================================================== */
+/* FORM ELEMENTS */
+/* ===================================================== */
 
 input:focus,
 textarea:focus,
@@ -2279,9 +2308,9 @@ select:focus {
 }
 
 
-/* ========================= */
-/* Horizontal Rules */
-/* ========================= */
+/* ===================================================== */
+/* HORIZONTAL RULES */
+/* ===================================================== */
 
 hr {
   border-color: rgba(114, 149, 183, 0.25);

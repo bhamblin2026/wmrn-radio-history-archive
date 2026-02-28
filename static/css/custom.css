@@ -2156,14 +2156,11 @@ figcaption {
   margin-bottom: 0.5rem;
 }
 
-/* ========================================= */
-/* FIX: Remove global paragraph box styling */
-/* ========================================= */
-
-.section-exhibits .content p,
-.section-exhibits .content h3 {
-  background: transparent !important;
+/* HARD STOP — prevent accession bleed */
+body:not(.section-accessions) h3[id^="wmrn-"],
+body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
+  background: none !important;
+  border: none !important;
   padding: 0 !important;
   margin-left: 0 !important;
-  border: none !important;
 }

@@ -616,7 +616,7 @@ body {
    ========================= */
 
 /* Accession title */
-h3[id^="wmrn-"] {
+.section-accessions h3[id^="wmrn-"] {
   margin-top: 2.5rem;
   padding: 0.6rem 0.75rem;
   background: #f3f3f3;

@@ -195,20 +195,26 @@ mainSections = [
     weight = 4
 
   # --------------------
-  # Exhibits
-  # --------------------
+# Exhibits
+# --------------------
 
-  [[menu.main]]
-    identifier = "exhibits"
-    name = "Exhibits"
-    pageRef = "/exhibits/"
-    weight = 5
+[[menu.main]]
+  identifier = "exhibits"
+  name = "Exhibits"
+  pageRef = "/exhibits/"
+  weight = 5
 
-  [[menu.main]]
-    parent = "exhibits"
-    name = "Buckeye Chuck"
-    pageRef = "/exhibits/buckeye-chuck/"
-    weight = 1
+[[menu.main]]
+  parent = "exhibits"
+  name = "Buckeye Chuck"
+  pageRef = "/exhibits/buckeye-chuck/"
+  weight = 1
+
+[[menu.main]]
+  parent = "exhibits"
+  name = "WMRN Peanut Push"
+  pageRef = "/exhibits/wmrn-peanut-push/"
+  weight = 2
 
   # --------------------
   # Podcast

@@ -2139,14 +2139,8 @@ figcaption {
   margin-bottom: 0.5rem;
 }
 
-/* =========================================
-   FORCE EXHIBITS PAGE TO USE NORMAL TEXT STYLING
-========================================= */
-
-.section-exhibits .content h3,
-.section-exhibits .content h3[id^="wmrn-"],
-.section-exhibits .content .accession-card,
-.section-exhibits .content p {
+/* Kill accession ID styling on Exhibits page */
+.section-exhibits .content h3[id^="wmrn-"] {
   background: transparent !important;
   border: none !important;
   padding: 0 !important;

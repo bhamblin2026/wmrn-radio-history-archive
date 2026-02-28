@@ -25,6 +25,6 @@ A documented history of WMRN’s long-running Groundhog Day broadcast tradition 
 A historical overview of the community fundraising tradition established in 1969 by broadcaster Charlie Evers in support of the Junior Service Guild’s Christmas Clearinghouse.  
 [View Exhibit →](/exhibits/wmrn-peanut-push/)
 
----
+--- 
 
 Additional exhibits will be added selectively as major historical themes are fully documented, verified, and curated.

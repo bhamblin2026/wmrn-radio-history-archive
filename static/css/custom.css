@@ -2151,23 +2151,32 @@ figcaption {
 }
 
 
-/* ========================= */
-/* Navigation Bar */
-/* ========================= */
+/* ===================================================== */
+/* WMRN Navigation – White Base / Blue Active */
+/* ===================================================== */
 
+/* Main navigation background */
 .menu,
 .menu__list {
-  background-color: var(--wmrn-blue) !important;
+  background-color: #ffffff !important;
 }
 
+/* Default nav link appearance */
 .menu__link {
-  color: #ffffff !important;
+  color: #000000 !important;
+  background-color: transparent !important;
 }
 
+/* Hover + Active state */
 .menu__link:hover,
 .menu__item--active > .menu__link {
-  background-color: var(--wmrn-blue-hover) !important;
+  background-color: #7295B7 !important;
   color: #ffffff !important;
+}
+
+/* Remove any leftover borders from prior overrides */
+.menu {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 

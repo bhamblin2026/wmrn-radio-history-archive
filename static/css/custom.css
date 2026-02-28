@@ -2139,9 +2139,14 @@ figcaption {
   margin-bottom: 0.5rem;
 }
 
-/* Remove gray paragraph background on Exhibits page */
-.section-exhibits .content p {
+/* ========================================= */
+/* FIX: Remove global paragraph box styling */
+/* ========================================= */
+
+.section-exhibits .content p,
+.section-exhibits .content h3 {
   background: transparent !important;
-  margin-left: 0 !important;
   padding: 0 !important;
+  margin-left: 0 !important;
+  border: none !important;
 }

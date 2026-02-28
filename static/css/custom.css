@@ -2138,3 +2138,30 @@ figcaption {
 .content li {
   margin-bottom: 0.5rem;
 }
+
+/* =========================================
+   EXHIBITS PAGE — RESET ACCESSION STYLING
+========================================= */
+
+.section-exhibits .content h3 {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin-top: 1.5rem !important;
+}
+
+.section-exhibits .content h3 + p {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.section-exhibits .content p {
+  border-left: none !important;
+}
+
+.section-exhibits blockquote {
+  border-left: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}

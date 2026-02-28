@@ -2140,28 +2140,14 @@ figcaption {
 }
 
 /* =========================================
-   EXHIBITS PAGE — RESET ACCESSION STYLING
+   FORCE EXHIBITS PAGE TO USE NORMAL TEXT STYLING
 ========================================= */
 
-.section-exhibits .content h3 {
-  border: none !important;
-  background: transparent !important;
-  padding: 0 !important;
-  margin-top: 1.5rem !important;
-}
-
-.section-exhibits .content h3 + p {
-  background: transparent !important;
-  border: none !important;
-  padding: 0 !important;
-}
-
+.section-exhibits .content h3,
+.section-exhibits .content h3[id^="wmrn-"],
+.section-exhibits .content .accession-card,
 .section-exhibits .content p {
-  border-left: none !important;
-}
-
-.section-exhibits blockquote {
-  border-left: none !important;
   background: transparent !important;
+  border: none !important;
   padding: 0 !important;
 }

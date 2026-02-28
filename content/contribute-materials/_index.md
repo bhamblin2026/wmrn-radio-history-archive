@@ -48,13 +48,16 @@ Corrections, clarifications, and additional information are always welcome.
 
 ---
 
-## How to Contribute
+## Submit Materials
 
-If you have materials, information, or recollections you would like to share — or if you are unsure whether something may be useful — please contact:
+If you have materials, information, or recollections you would like to share — or if you are unsure whether something may be useful — please complete the submission form below.
 
-**archive@wmrnhistory.com**
-
-A brief description of what you have, along with any known dates, names, or context, is helpful but not required.
+<div class="contribute-form">
+  <iframe 
+    src="https://forms.office.com/Pages/ResponsePage.aspx?id=B0-yBS9NSEO69SoyTopFklZe5jkHJ4FDv6o50tkvCwNUMEY0QThCR1VCV0xPRUJWMUk2RU8wQU5XWS4u&embed=true"
+    frameborder="0">
+  </iframe>
+</div>
 
 ---
 
@@ -63,5 +66,3 @@ A brief description of what you have, along with any known dates, names, or cont
 Preserving local radio history depends on individuals who choose not to let it fade.
 
 Every contribution, no matter how small it may seem, strengthens the historical record and ensures that WMRN’s story remains accessible for future generations.
-
-Thank you for helping preserve this history.

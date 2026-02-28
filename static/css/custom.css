@@ -2139,9 +2139,9 @@ figcaption {
   margin-bottom: 0.5rem;
 }
 
-/* Kill accession ID styling on Exhibits page */
-.section-exhibits .content h3[id^="wmrn-"] {
+/* Remove gray paragraph background on Exhibits page */
+.section-exhibits .content p {
   background: transparent !important;
-  border: none !important;
+  margin-left: 0 !important;
   padding: 0 !important;
 }

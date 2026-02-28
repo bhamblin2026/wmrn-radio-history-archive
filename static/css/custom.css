@@ -2140,109 +2140,156 @@ figcaption {
 }
 
 /* ===================================================== */
-/* WMRN Global Brand Color System */
+/* WMRN Global Brand Color Override */
 /* Primary Brand Blue: #7295B7 */
-/* Hover Variant: #5F7FA0 */
 /* ===================================================== */
 
-:root {
+:root{
   --wmrn-blue: #7295B7;
-  --wmrn-blue-hover: #5F7FA0;
 
-  /* Override theme accent variables directly */
-  --color-accent: #7295B7;
-  --color-accent-hover: #5F7FA0;
+  /* Nav tokens (default = light mode) */
+  --wmrn-nav-bg: #ffffff;
+  --wmrn-nav-text: #111111;
+  --wmrn-nav-border: rgba(0,0,0,0.10);
+
+  --wmrn-dropdown-bg: #ffffff;
+  --wmrn-dropdown-text: #111111;
 }
 
+/* Dark mode nav colors (keeps text readable on mobile + desktop) */
+@media (prefers-color-scheme: dark){
+  :root{
+    --wmrn-nav-bg: #0f0f10;
+    --wmrn-nav-text: #f5f5f5;
+    --wmrn-nav-border: rgba(255,255,255,0.14);
 
-/* ===================================================== */
-/* NAVIGATION – Adaptive Light/Dark with WMRN Blue */
-/* ===================================================== */
-
-/* Remove any previous forced backgrounds */
-.menu,
-.menu__list,
-.menu__item {
-  background: transparent !important;
-}
-
-/* Default link color (Light Mode) */
-.menu__link {
-  color: #000000;
-}
-
-/* Hover + Active */
-.menu__link:hover,
-.menu__item--active > .menu__link {
-  background-color: var(--wmrn-blue);
-  color: #ffffff;
-}
-
-
-/* ===================================================== */
-/* DARK MODE NAVIGATION */
-/* ===================================================== */
-
-@media (prefers-color-scheme: dark) {
-
-  .menu__link {
-    color: #ffffff;
+    --wmrn-dropdown-bg: #141416;
+    --wmrn-dropdown-text: #f5f5f5;
   }
-
-  .menu__link:hover,
-  .menu__item--active > .menu__link {
-    background-color: var(--wmrn-blue);
-    color: #ffffff;
-  }
-
 }
 
-
 /* ===================================================== */
-/* MOBILE TAP STATES */
+/* NAVIGATION: Base follows light/dark, hover/active = WMRN blue */
 /* ===================================================== */
 
-.menu__link:active,
-.menu__link:focus {
-  background-color: var(--wmrn-blue);
-  color: #ffffff;
+/* Main nav background + border */
+.header .menu,
+.header .menu__list{
+  background-color: var(--wmrn-nav-bg) !important;
 }
 
-
-/* ===================================================== */
-/* SCROLLING TIMELINE BANNER */
-/* ===================================================== */
-
-.wmrn-banner {
-  background-color: var(--wmrn-blue);
+.header .menu{
+  border-bottom: 1px solid var(--wmrn-nav-border) !important;
+  box-shadow: none !important;
 }
 
-.wmrn-banner-content {
-  color: #ffffff;
+/* Default top-level link appearance */
+.header .menu__link,
+.header .menu__link:visited{
+  color: var(--wmrn-nav-text) !important;
+  background-color: transparent !important;
 }
 
+/* Hover + focus + active = WMRN blue */
+.header .menu__link:hover,
+.header .menu__link:focus,
+.header .menu__item--active > .menu__link{
+  background-color: var(--wmrn-blue) !important;
+  color: #ffffff !important;
+}
+
+/* Keep dropdown caret/icon readable (some themes color it separately) */
+.header .menu__link svg,
+.header .menu__link:hover svg,
+.header .menu__item--active > .menu__link svg{
+  fill: currentColor !important;
+}
 
 /* ===================================================== */
-/* SITE-WIDE LINKS */
+/* DROPDOWNS */
 /* ===================================================== */
 
-a {
+.header .menu__sub-list{
+  background-color: var(--wmrn-dropdown-bg) !important;
+  border: 1px solid var(--wmrn-nav-border) !important;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.20) !important;
+}
+
+/* Dropdown links default */
+.header .menu__sub-list .menu__link,
+.header .menu__sub-list .menu__link:visited{
+  color: var(--wmrn-dropdown-text) !important;
+  background-color: transparent !important;
+}
+
+/* Dropdown hover/active */
+.header .menu__sub-list .menu__link:hover,
+.header .menu__sub-list .menu__link:focus,
+.header .menu__sub-list .menu__item--active > .menu__link{
+  background-color: var(--wmrn-blue) !important;
+  color: #ffffff !important;
+}
+
+/* ===================================================== */
+/* MOBILE MENU BUTTON ("MENU") + MOBILE LIST */
+/* Fixes white text on white background and navy tap color */
+/* ===================================================== */
+
+.header .menu__btn,
+.header .menu__btn:visited{
+  color: var(--wmrn-nav-text) !important;
+  background-color: transparent !important;
+  border-color: var(--wmrn-nav-border) !important;
+}
+
+.header .menu__btn:hover,
+.header .menu__btn:focus{
+  background-color: var(--wmrn-blue) !important;
+  color: #ffffff !important;
+}
+
+/* If the theme uses a separate label element for MENU */
+.header .menu__btn-label{
+  color: inherit !important;
+}
+
+/* Mobile list container background */
+.header .menu__list{
+  background-color: var(--wmrn-nav-bg) !important;
+}
+
+/* ===================================================== */
+/* Scrolling Timeline Banner */
+/* ===================================================== */
+
+.wmrn-banner{
+  background-color: var(--wmrn-blue) !important;
+}
+
+.wmrn-banner-content{
+  color: #ffffff !important;
+}
+
+/* ===================================================== */
+/* Links Site-Wide (optional, but keeps brand consistent) */
+/* ===================================================== */
+
+a{
   color: var(--wmrn-blue);
 }
 
-a:hover {
-  color: var(--wmrn-blue-hover);
+a:hover{
+  opacity: 0.85;
 }
 
-
 /* ===================================================== */
-/* BUTTONS */
+/* Buttons */
 /* ===================================================== */
 
 button,
 .button,
 .btn,
-.home-button {
+.home-button{
   background-color: var(--wmrn-blue);
   border-color: var(--wmrn-blue);
   color: #ffffff;
@@ -2251,67 +2298,61 @@ button,
 button:hover,
 .button:hover,
 .btn:hover,
-.home-button:hover {
-  background-color: var(--wmrn-blue-hover);
-  border-color: var(--wmrn-blue-hover);
+.home-button:hover{
+  opacity: 0.90;
   color: #ffffff;
 }
 
-
 /* ===================================================== */
-/* SECTION HEADING ACCENTS */
+/* Section Headings Accents */
 /* ===================================================== */
 
-.content h2 {
-  border-bottom-color: rgba(114, 149, 183, 0.35);
+.content h2{
+  border-bottom-color: rgba(114,149,183,0.35);
 }
 
-
 /* ===================================================== */
-/* PAGINATION */
+/* Pagination */
 /* ===================================================== */
 
-.pagination__item--active {
+.pagination__item--active{
   background-color: var(--wmrn-blue);
   border-color: var(--wmrn-blue);
   color: #ffffff;
 }
 
-
 /* ===================================================== */
-/* TAGS & TAXONOMY */
+/* Tags & Taxonomy Links */
 /* ===================================================== */
 
 .tag,
-.taxonomy-term {
-  background-color: rgba(114, 149, 183, 0.15);
+.taxonomy-term{
+  background-color: rgba(114,149,183,0.15);
   color: var(--wmrn-blue);
-  border: 1px solid rgba(114, 149, 183, 0.35);
+  border: 1px solid rgba(114,149,183,0.35);
 }
 
 .tag:hover,
-.taxonomy-term:hover {
+.taxonomy-term:hover{
   background-color: var(--wmrn-blue);
   color: #ffffff;
 }
 
-
 /* ===================================================== */
-/* FORM ELEMENTS */
+/* Form Elements */
 /* ===================================================== */
 
 input:focus,
 textarea:focus,
-select:focus {
+select:focus{
   border-color: var(--wmrn-blue);
   outline-color: var(--wmrn-blue);
 }
 
-
 /* ===================================================== */
-/* HORIZONTAL RULES */
+/* Horizontal Rules */
 /* ===================================================== */
 
-hr {
-  border-color: rgba(114, 149, 183, 0.25);
+hr{
+  border-color: rgba(114,149,183,0.25);
 }

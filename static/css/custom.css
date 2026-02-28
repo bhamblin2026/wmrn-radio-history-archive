@@ -2178,3 +2178,16 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   width: 100%;
   border: none;
 }
+
+/* Contribute form framing */
+.contribute-form {
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.contribute-form iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}

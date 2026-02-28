@@ -616,8 +616,9 @@ body {
    ========================= */
 
 /* Accession title */
-.section-accessions h3[id^="wmrn-"] {
+.section-accessions .content h3[id^="wmrn-"] {
   margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
   padding: 0.6rem 0.75rem;
   background: #f3f3f3;
   border-left: 4px solid #8b0000; /* WMRN red */
@@ -626,27 +627,43 @@ body {
 }
 
 /* First paragraph after accession title (subtitle / item name) */
-h3[id^="wmrn-"] + p {
+.section-accessions .content h3[id^="wmrn-"] + p {
   font-weight: 600;
   margin-top: 0.5rem;
+  padding-top: 0.75rem;
 }
 
 /* Metadata labels (Description, Creator, etc.) */
-h3[id^="wmrn-"] ~ p strong {
+.section-accessions .content h3[id^="wmrn-"] ~ p strong {
   display: inline-block;
   min-width: 170px;
   font-weight: 600;
 }
 
-/* Space between accessions */
-h3[id^="wmrn-"] + p,
-h3[id^="wmrn-"] ~ p {
+/* Body paragraphs within accession card */
+.section-accessions .content h3[id^="wmrn-"] ~ p {
   margin-left: 0.75rem;
+  max-width: 42em;
+  line-height: 1.55;
+  background: #f9f9f9;
+  padding: 0.25rem 0.75rem;
+  border-left: 4px solid #8b1e1e;
 }
 
-/* Optional: soften long blocks */
-h3[id^="wmrn-"] ~ p {
-  line-height: 1.55;
+/* Last paragraph before next accession */
+.section-accessions .content h3[id^="wmrn-"] ~ p:last-of-type {
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Reset indentation when next accession begins */
+.section-accessions .content h3[id^="wmrn-"] ~ h3[id^="wmrn-"] {
+  margin-left: 0;
+}
+
+/* Remove divider pseudo-element (if previously added elsewhere) */
+.section-accessions .content h3[id^="wmrn-"]::after {
+  content: none;
 }
 
 /* =========================

@@ -53,10 +53,15 @@ Corrections, clarifications, and additional information are always welcome.
 If you have materials, information, or recollections you would like to share — or if you are unsure whether something may be useful — please complete the submission form below.
 
 <div class="contribute-form">
-  <iframe 
-    src="https://forms.office.com/Pages/ResponsePage.aspx?id=B0-yBS9NSEO69SoyTopFklZe5jkHJ4FDv6o50tkvCwNUMEY0QThCR1VCV0xPRUJWMUk2RU8wQU5XWS4u&embed=true"
-    frameborder="0">
-  </iframe>
+<iframe 
+src="https://forms.office.com/Pages/ResponsePage.aspx?id=B0-yBS9NSEO69SoyTopFklZe5jkHJ4FDv6o50tkvCwNUMEY0QThCR1VCV0xPRUJWMUk2RU8wQU5XWS4u&embed=true"
+width="100%"
+height="1400"
+frameborder="0"
+marginwidth="0"
+marginheight="0"
+style="border: none;">
+</iframe>
 </div>
 
 ---

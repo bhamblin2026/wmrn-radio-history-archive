@@ -1,6 +1,6 @@
 ---
 title: "Digital Exhibits"
-layout: list
+layout: page
 searchable: true
 description: "Curated digital exhibits documenting major milestones, traditions, and defining initiatives in the broadcast history of WMRN-AM (1490) and its associated FM operations."
 ---

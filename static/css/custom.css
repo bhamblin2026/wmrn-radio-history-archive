@@ -2138,3 +2138,142 @@ figcaption {
 .content li {
   margin-bottom: 0.5rem;
 }
+
+/* ===================================================== */
+/* WMRN Global Brand Color Override */
+/* Primary Brand Blue: #7295B7 */
+/* Hover/Darker Variant: #5F7FA0 */
+/* ===================================================== */
+
+:root {
+  --wmrn-blue: #7295B7;
+  --wmrn-blue-hover: #5F7FA0;
+}
+
+
+/* ========================= */
+/* Navigation Bar */
+/* ========================= */
+
+.menu,
+.menu__list {
+  background-color: var(--wmrn-blue) !important;
+}
+
+.menu__link {
+  color: #ffffff !important;
+}
+
+.menu__link:hover,
+.menu__item--active > .menu__link {
+  background-color: var(--wmrn-blue-hover) !important;
+  color: #ffffff !important;
+}
+
+
+/* ========================= */
+/* Scrolling Timeline Banner */
+/* ========================= */
+
+.wmrn-banner {
+  background-color: var(--wmrn-blue) !important;
+}
+
+.wmrn-banner-content {
+  color: #ffffff !important;
+}
+
+
+/* ========================= */
+/* Links Site-Wide */
+/* ========================= */
+
+a {
+  color: var(--wmrn-blue);
+}
+
+a:hover {
+  color: var(--wmrn-blue-hover);
+}
+
+
+/* ========================= */
+/* Buttons */
+/* ========================= */
+
+button,
+.button,
+.btn,
+.home-button {
+  background-color: var(--wmrn-blue);
+  border-color: var(--wmrn-blue);
+  color: #ffffff;
+}
+
+button:hover,
+.button:hover,
+.btn:hover,
+.home-button:hover {
+  background-color: var(--wmrn-blue-hover);
+  border-color: var(--wmrn-blue-hover);
+  color: #ffffff;
+}
+
+
+/* ========================= */
+/* Section Headings Accents */
+/* ========================= */
+
+.content h2 {
+  border-bottom-color: rgba(114, 149, 183, 0.35);
+}
+
+
+/* ========================= */
+/* Pagination */
+/* ========================= */
+
+.pagination__item--active {
+  background-color: var(--wmrn-blue);
+  border-color: var(--wmrn-blue);
+  color: #ffffff;
+}
+
+
+/* ========================= */
+/* Tags & Taxonomy Links */
+/* ========================= */
+
+.tag,
+.taxonomy-term {
+  background-color: rgba(114, 149, 183, 0.15);
+  color: var(--wmrn-blue);
+  border: 1px solid rgba(114, 149, 183, 0.35);
+}
+
+.tag:hover,
+.taxonomy-term:hover {
+  background-color: var(--wmrn-blue);
+  color: #ffffff;
+}
+
+
+/* ========================= */
+/* Form Elements */
+/* ========================= */
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--wmrn-blue);
+  outline-color: var(--wmrn-blue);
+}
+
+
+/* ========================= */
+/* Horizontal Rules */
+/* ========================= */
+
+hr {
+  border-color: rgba(114, 149, 183, 0.25);
+}

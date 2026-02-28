@@ -2174,7 +2174,7 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
 }
 
 .contribute-form iframe {
+  display: block;
   width: 100%;
-  min-height: 1100px;
   border: none;
 }

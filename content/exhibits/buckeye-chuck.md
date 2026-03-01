@@ -66,6 +66,18 @@ Materials associated with Buckeye Chuck preserved within the WMRN Radio History 
 
 Documentation is preserved through structured accessioning, source verification, and archival cataloging standards.
 
+## Contemporary Reference
+
+Buckeye Chuck continues to appear in annual February 2 ceremonies and related public communications.
+
+For current announcements, event information, and updates, see the official Buckeye Chuck Facebook page:
+
+[Official Buckeye Chuck Facebook Page →](https://www.facebook.com/THEBuckeyeChuck)
+
+This external link is provided for contemporary reference only and is not operated or maintained by the WMRN Radio History Archive.
+
+Visitors who have photographs, recordings, printed materials, or firsthand recollections of recent Groundhog Day ceremonies are encouraged to contribute documentation to the WMRN Radio History Archive.
+
 ## Ongoing Record
 
 This exhibit represents a curated historical record of the Buckeye Chuck broadcast tradition as documented through verified sources. It will expand as additional recordings, printed materials, legislative documentation, and corroborating historical evidence are accessioned and preserved.

@@ -2387,6 +2387,7 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
    NAVIGATION BOTTOM BORDER — FORCE WMRN BLUE
    ========================================= */
 
-.main-nav {
+.main-nav,
+.main-nav::after {
   border-bottom: 4px solid #7295B7 !important;
 }

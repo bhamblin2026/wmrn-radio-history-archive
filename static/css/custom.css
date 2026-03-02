@@ -2191,3 +2191,84 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   border: none;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
+
+/* =========================================
+   FOUNDING DOCUMENT — ARCHIVAL PRESENTATION
+   ========================================= */
+
+.founding-document {
+  max-width: 820px;
+  margin: 3rem auto;
+  padding: 2.75rem;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+
+/* Subtle institutional accent line */
+.founding-document::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #1c2d4a; /* WMRN navy */
+  margin-bottom: 1.75rem;
+}
+
+/* Headings */
+.founding-document h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.founding-document h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Body text */
+.founding-document p {
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #222;
+}
+
+/* Filing details list */
+.founding-document ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.founding-document ul li {
+  padding: 0.4rem 0;
+}
+
+/* Image presentation */
+.founding-document figure {
+  margin: 3rem 0;
+}
+
+.founding-document figure img {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background: #fff;
+}
+
+.founding-document figcaption {
+  font-size: 0.85rem;
+  color: #555;
+  text-align: center;
+  margin-top: 0.75rem;
+  font-style: italic;
+}
+
+/* Archival note styling */
+.archival-note {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.95rem;
+  color: #444;
+}

@@ -2363,3 +2363,15 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   color: #ffffff;
   border-radius: 3px;
 }
+
+/* ===== Global Typography Override ===== */
+
+html,
+body,
+.main,
+.content,
+.entry,
+.page,
+.post {
+  font-family: "EB Garamond", Garamond, serif !important;
+}

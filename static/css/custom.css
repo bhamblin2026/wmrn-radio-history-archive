@@ -2348,3 +2348,18 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
     color: #bbb;
   }
 }
+
+/* ===== Primary Source Badge ===== */
+
+.primary-badge {
+  display: inline-block;
+  margin: 1rem 0 1.5rem 0;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.75rem;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #7295B7;  /* WMRN blue */
+  color: #ffffff;
+  border-radius: 3px;
+}

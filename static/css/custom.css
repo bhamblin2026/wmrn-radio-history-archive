@@ -1,4 +1,4 @@
-/* =========================
+I'm/* =========================
    BASE TYPOGRAPHY
    ========================= */
 
@@ -2346,5 +2346,39 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
 @media (prefers-color-scheme: dark) {
   .lightbox-caption {
     color: #bbb;
+  }
+}
+
+/* =========================================
+   FORCE WMRN BLUE FOR PAGE CONTENT LINKS
+   ========================================= */
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  .entry a,
+  .content a,
+  .main a {
+    color: #7295B7 !important;
+  }
+
+  .entry a:hover,
+  .content a:hover,
+  .main a:hover {
+    color: #5f82a2 !important;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .entry a,
+  .content a,
+  .main a {
+    color: #9fc0df !important;
+  }
+
+  .entry a:hover,
+  .content a:hover,
+  .main a:hover {
+    color: #ffffff !important;
   }
 }

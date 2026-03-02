@@ -2351,34 +2351,39 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
 
 /* =========================================
    FORCE WMRN BLUE FOR PAGE CONTENT LINKS
+   (EXCLUDES BUTTONS)
    ========================================= */
 
 /* Light mode */
 @media (prefers-color-scheme: light) {
-  .entry a,
-  .content a,
-  .main a {
+
+  .entry a:not(.btn):not(.button),
+  .content a:not(.btn):not(.button),
+  .main a:not(.btn):not(.button) {
     color: #7295B7 !important;
   }
 
-  .entry a:hover,
-  .content a:hover,
-  .main a:hover {
+  .entry a:not(.btn):not(.button):hover,
+  .content a:not(.btn):not(.button):hover,
+  .main a:not(.btn):not(.button):hover {
     color: #5f82a2 !important;
   }
+
 }
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
-  .entry a,
-  .content a,
-  .main a {
+
+  .entry a:not(.btn):not(.button),
+  .content a:not(.btn):not(.button),
+  .main a:not(.btn):not(.button) {
     color: #9fc0df !important;
   }
 
-  .entry a:hover,
-  .content a:hover,
-  .main a:hover {
+  .entry a:not(.btn):not(.button):hover,
+  .content a:not(.btn):not(.button):hover,
+  .main a:not(.btn):not(.button):hover {
     color: #ffffff !important;
   }
+
 }

@@ -70,10 +70,11 @@ The complete certified document is available as a digital facsimile:
 
 → [Articles of Incorporation – The Marion Broadcasting Company (1940)](/founding-of-wmrn/articles-of-incorporation-1940/)
 
-**Primary sources:**  
-The Marion Star, 1940–1953 (construction announcements, licensing coverage, opening-day report, and FM launch coverage)  
-Articles of Incorporation of The Marion Broadcasting Company, filed April 22, 1940. Certified copy preserved in the collection of the Marion County Historical Society, Marion, Ohio.
+## Sources
 
+The Marion Star (Marion, Ohio), 1940–1953. Construction announcements, licensing coverage, opening-day reporting, and FM launch coverage.
+
+Articles of Incorporation of The Marion Broadcasting Company. Filed April 22, 1940. Volume 471, Page 131. Certified copy preserved in the collection of the Marion County Historical Society, Marion, Ohio.
 ---
 
 ### Editorial confidence note

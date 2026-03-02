@@ -38,13 +38,53 @@ The incorporators were:
 
 ## Digital Facsimile
 
-{{< figure src="/images/founding/articles-1940-page1.jpg" alt="Articles of Incorporation – Page 1" caption="Articles of Incorporation – Page 1. Courtesy of the Marion County Historical Society, Marion, Ohio." >}}
+<div class="document-gallery">
 
-{{< figure src="/images/founding/articles-1940-page2.jpg" alt="Articles of Incorporation – Page 2" caption="Articles of Incorporation – Page 2. Courtesy of the Marion County Historical Society, Marion, Ohio." >}}
+<a href="/images/founding/articles-1940-page1.jpg"
+   class="glightbox"
+   data-gallery="founding-documents"
+   data-title="Articles of Incorporation – Page 1<br>Courtesy of the Marion County Historical Society, Marion, Ohio.">
+  <img src="/images/founding/articles-1940-page1.jpg"
+       alt="Articles of Incorporation – Page 1">
+</a>
+<p class="lightbox-caption">
+Articles of Incorporation – Page 1. Courtesy of the Marion County Historical Society, Marion, Ohio.
+</p>
 
-{{< figure src="/images/founding/articles-1940-page3.jpg" alt="Articles of Incorporation – Page 3" caption="Articles of Incorporation – Signatures and Notary. Courtesy of the Marion County Historical Society, Marion, Ohio." >}}
+<a href="/images/founding/articles-1940-page2.jpg"
+   class="glightbox"
+   data-gallery="founding-documents"
+   data-title="Articles of Incorporation – Page 2<br>Courtesy of the Marion County Historical Society, Marion, Ohio.">
+  <img src="/images/founding/articles-1940-page2.jpg"
+       alt="Articles of Incorporation – Page 2">
+</a>
+<p class="lightbox-caption">
+Articles of Incorporation – Page 2. Courtesy of the Marion County Historical Society, Marion, Ohio.
+</p>
 
-{{< figure src="/images/founding/articles-1940-page4.jpg" alt="Articles of Incorporation – Page 4" caption="Articles of Incorporation – Secretary of State Certification and Seal. Courtesy of the Marion County Historical Society, Marion, Ohio." >}}
+<a href="/images/founding/articles-1940-page3.jpg"
+   class="glightbox"
+   data-gallery="founding-documents"
+   data-title="Articles of Incorporation – Signatures and Notary<br>Courtesy of the Marion County Historical Society, Marion, Ohio.">
+  <img src="/images/founding/articles-1940-page3.jpg"
+       alt="Articles of Incorporation – Signatures and Notary">
+</a>
+<p class="lightbox-caption">
+Articles of Incorporation – Signatures and Notary. Courtesy of the Marion County Historical Society, Marion, Ohio.
+</p>
+
+<a href="/images/founding/articles-1940-page4.jpg"
+   class="glightbox"
+   data-gallery="founding-documents"
+   data-title="Articles of Incorporation – Secretary of State Certification and Seal<br>Courtesy of the Marion County Historical Society, Marion, Ohio.">
+  <img src="/images/founding/articles-1940-page4.jpg"
+       alt="Articles of Incorporation – Secretary of State Certification and Seal">
+</a>
+<p class="lightbox-caption">
+Articles of Incorporation – Secretary of State Certification and Seal. Courtesy of the Marion County Historical Society, Marion, Ohio.
+</p>
+
+</div>
 
 <div class="archival-note">
 This certified copy of the Articles of Incorporation is preserved in the collection of the Marion County Historical Society, Marion, Ohio, and is reproduced here with attribution for historical documentation purposes.

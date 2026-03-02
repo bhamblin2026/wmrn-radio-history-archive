@@ -2323,3 +2323,28 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   }
 
 }
+
+.document-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  border: 1px solid #bbb;
+  padding: 4px;
+  background: #fff;
+  cursor: zoom-in;
+}
+
+.lightbox-caption {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 0.75rem;
+  color: #666;
+  font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+  .lightbox-caption {
+    color: #bbb;
+  }
+}

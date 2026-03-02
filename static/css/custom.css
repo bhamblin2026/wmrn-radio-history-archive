@@ -2193,11 +2193,11 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
 }
 
 /* =========================================
-   FOUNDING DOCUMENT — FINAL DARK-CORRECT VERSION
+   FOUNDING DOCUMENT — CLEAN LIGHT / TRUE DARK
    ========================================= */
 
 /* ===============================
-   LIGHT MODE
+   LIGHT MODE (default)
    =============================== */
 
 .founding-document {
@@ -2223,22 +2223,10 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   color: #111;
 }
 
-.founding-document h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.founding-document h2 {
-  font-size: 1.25rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-}
-
 .founding-document p,
 .founding-document li {
-  line-height: 1.7;
-  font-size: 1rem;
   color: #222;
+  line-height: 1.7;
 }
 
 .founding-document ul {
@@ -2277,41 +2265,51 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   color: #444;
 }
 
+
 /* ===============================
-   DARK MODE — ACTUALLY DARK
+   DARK MODE — ACTUAL DARK MODE
    =============================== */
 
 @media (prefers-color-scheme: dark) {
 
+  /* Make entire page dark */
   body {
-    background-color: #0d0d0d;
+    background-color: #0b0b0b !important;
   }
 
+  /* Remove white panel look */
   .founding-document {
-    background: #ffffff;
-    box-shadow: 0 0 0 1px #333, 0 12px 40px rgba(0, 0, 0, 0.75);
+    background: transparent !important;
+    box-shadow: none !important;
   }
 
+  /* White text */
   .founding-document h1,
   .founding-document h2 {
-    color: #111;
+    color: #ffffff !important;
   }
 
   .founding-document p,
   .founding-document li {
-    color: #222;
+    color: #e6e6e6 !important;
   }
 
   .founding-document figcaption {
-    color: #444;
+    color: #bbbbbb !important;
   }
 
   .archival-note {
-    border-top: 1px solid #ccc;
-    color: #333;
+    border-top: 1px solid #333 !important;
+    color: #cccccc !important;
   }
 
+  /* Images stay natural */
+  .founding-document figure img {
+    border: 1px solid #444;
+    background: #111;
+  }
 }
+
 
 /* ===============================
    MOBILE

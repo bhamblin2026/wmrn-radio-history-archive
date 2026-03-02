@@ -2193,10 +2193,13 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
 }
 
 /* =========================================
-   FOUNDING DOCUMENT — INSTITUTIONAL STYLE
+   FOUNDING DOCUMENT — FINAL DARK-CORRECT VERSION
    ========================================= */
 
-/* Main container */
+/* ===============================
+   LIGHT MODE
+   =============================== */
+
 .founding-document {
   max-width: 820px;
   margin: 4rem auto;
@@ -2205,7 +2208,6 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   box-shadow: 0 0 0 1px #d9d9d9;
 }
 
-/* Accent rule */
 .founding-document::before {
   content: "";
   display: block;
@@ -2215,30 +2217,30 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   margin-bottom: 1.75rem;
 }
 
-/* Headings */
-.founding-document h1 {
+.founding-document h1,
+.founding-document h2 {
   font-family: "Libre Baskerville", serif;
+  color: #111;
+}
+
+.founding-document h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: #111;
 }
 
 .founding-document h2 {
-  font-family: "Libre Baskerville", serif;
   font-size: 1.25rem;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
-  color: #111;
 }
 
-/* Body text */
-.founding-document p {
+.founding-document p,
+.founding-document li {
   line-height: 1.7;
   font-size: 1rem;
   color: #222;
 }
 
-/* Filing details list */
 .founding-document ul {
   list-style: none;
   padding-left: 0;
@@ -2249,7 +2251,6 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   padding: 0.4rem 0;
 }
 
-/* Image presentation */
 .founding-document figure {
   margin: 2.75rem 0;
 }
@@ -2268,7 +2269,6 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   font-style: italic;
 }
 
-/* Archival note */
 .archival-note {
   margin-top: 2.75rem;
   padding-top: 1.5rem;
@@ -2277,15 +2277,19 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   color: #444;
 }
 
-/* =========================================
-   DARK MODE REFINEMENT
-   ========================================= */
+/* ===============================
+   DARK MODE — ACTUALLY DARK
+   =============================== */
 
 @media (prefers-color-scheme: dark) {
 
+  body {
+    background-color: #0d0d0d;
+  }
+
   .founding-document {
-    background: #f4f2ed;           /* soft archival ivory */
-    box-shadow: 0 0 0 1px #3a3a3a;  /* subtle outer frame */
+    background: #ffffff;
+    box-shadow: 0 0 0 1px #333, 0 12px 40px rgba(0, 0, 0, 0.75);
   }
 
   .founding-document h1,
@@ -2295,7 +2299,7 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
 
   .founding-document p,
   .founding-document li {
-    color: #1a1a1a;
+    color: #222;
   }
 
   .founding-document figcaption {
@@ -2303,24 +2307,21 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
   }
 
   .archival-note {
-    border-top: 1px solid #cfcfcf;
+    border-top: 1px solid #ccc;
     color: #333;
   }
+
 }
 
-/* =========================================
-   MOBILE REFINEMENT
-   ========================================= */
+/* ===============================
+   MOBILE
+   =============================== */
 
 @media (max-width: 768px) {
 
   .founding-document {
     margin: 2.5rem 1rem;
     padding: 2rem 1.5rem;
-  }
-
-  .founding-document figure img {
-    padding: 4px;
   }
 
 }

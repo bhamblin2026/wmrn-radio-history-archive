@@ -2382,15 +2382,3 @@ body:not(.section-accessions) h3[id^="wmrn-"] ~ p {
     color: #ffffff !important;
   }
 }
-
-/* =========================================
-   FORCE HEADER STRIPE TO WMRN BLUE
-   ========================================= */
-
-.header,
-.header::after,
-.main-nav,
-.main-nav::after {
-  border-bottom: 4px solid #7295B7 !important;
-  background-color: #7295B7 !important;
-}

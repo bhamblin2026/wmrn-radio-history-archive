@@ -11,6 +11,10 @@ description: "Certified Articles of Incorporation for The Marion Broadcasting Co
 ## The Marion Broadcasting Company  
 Filed April 22, 1940
 
+<div class="primary-badge">
+PRIMARY SOURCE
+</div>
+
 On April 22, 1940, The Marion Broadcasting Company was formally incorporated under the laws of the State of Ohio. This filing established the legal corporate entity that would construct and operate radio station WMRN in Marion, Ohio.
 
 At the time of incorporation, radio broadcasting was entering one of its most influential eras. Local stations served as primary sources of news, weather, civic information, and national programming. The formation of The Marion Broadcasting Company placed Marion within this expanding communications network during a period of rapid technological and social change.

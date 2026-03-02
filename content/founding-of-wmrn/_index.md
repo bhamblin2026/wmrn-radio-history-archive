@@ -12,7 +12,9 @@ Radio station WMRN was established through a carefully planned and professionall
 
 ## Planning and Authorization
 
-WMRN was founded by the Marion Broadcasting Company, with Robert T. Mason of Fremont, Ohio, serving as president and treasurer. Mason brought prior experience in broadcasting, publishing, and national news organizations and directed the creation of WMRN as a fully licensed commercial station rather than an experimental or temporary operation.
+WMRN was founded by the Marion Broadcasting Company, formally incorporated in the State of Ohio on April 22, 1940. The certified Articles of Incorporation established the corporate entity responsible for constructing and operating the station.
+
+Robert T. Mason of Fremont, Ohio, served as president and treasurer. Mason brought prior experience in broadcasting, publishing, and national news organizations and directed the creation of WMRN as a fully licensed commercial station rather than an experimental or temporary operation.
 
 During mid-1940, Marion Broadcasting Company announced plans to construct a radio station to serve Marion and the surrounding region. After evaluating multiple locations, Mason selected Marion based on its geographic position, civic infrastructure, and ability to sustain a locally focused broadcast service. He emphasized cooperation with civic, educational, and cultural organizations and the importance of programming rooted in local interest.
 
@@ -58,14 +60,26 @@ The addition of FM broadcasting marked a significant milestone in WMRN’s devel
 
 From its establishment in 1940 through its expansion into FM broadcasting in the early 1950s, WMRN evolved from a newly constructed local AM station into a multi-band broadcast operation. Its founding and early growth reflect the broader transformation of American radio from a single-band medium into a diversified broadcast service rooted in local communities.
 
+---
+
+## Primary Source Documentation
+
+The legal formation of the station is documented in the Articles of Incorporation of The Marion Broadcasting Company, filed April 22, 1940 and recorded in Volume 471, Page 131 by the Ohio Secretary of State.
+
+The complete certified document is available as a digital facsimile:
+
+→ [Articles of Incorporation – The Marion Broadcasting Company (1940)](/founding-of-wmrn/articles-of-incorporation-1940/)
+
 **Primary sources:**  
-The Marion Star, 1940–1953 (construction announcements, licensing coverage, opening-day report, and FM launch coverage)
+The Marion Star, 1940–1953 (construction announcements, licensing coverage, opening-day report, and FM launch coverage)  
+Articles of Incorporation of The Marion Broadcasting Company, filed April 22, 1940. Certified copy preserved in the collection of the Marion County Historical Society, Marion, Ohio.
 
 ---
 
 ### Editorial confidence note
 
-All dates, times, frequencies, names, locations, and technical details presented here are derived from contemporaneous newspaper reporting and established federal broadcast history. Later recollections are preserved elsewhere in the archive as oral history and are not substituted where primary documentation exists.
+All dates, times, frequencies, names, locations, and technical details presented here are derived from contemporaneous newspaper reporting and established federal broadcast history. Corporate formation details are drawn directly from the certified Articles of Incorporation on file with the State of Ohio. Later recollections are preserved elsewhere in the archive as oral history and are not substituted where primary documentation exists.
+
 {{< founding-record >}}
 
 <!-- Google tag (gtag.js) -->
@@ -74,6 +88,5 @@ All dates, times, frequencies, names, locations, and technical details presented
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-BQHE4LCHPT');
 </script>

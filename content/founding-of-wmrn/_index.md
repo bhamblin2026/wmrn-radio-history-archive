@@ -64,22 +64,25 @@ From its establishment in 1940 through its expansion into FM broadcasting in the
 
 ## Primary Source Documentation
 
-The legal formation of the station is documented in the Articles of Incorporation of The Marion Broadcasting Company, filed April 22, 1940 and recorded in Volume 471, Page 131 by the Ohio Secretary of State.
+The legal formation of the station is documented in the Articles of Incorporation of The Marion Broadcasting Company, filed April 22, 1940, and recorded in Volume 471, Page 131, Office of the Ohio Secretary of State.
 
 The complete certified document is available as a digital facsimile:
 
 → [Articles of Incorporation – The Marion Broadcasting Company (1940)](/founding-of-wmrn/articles-of-incorporation-1940/)
+
+---
 
 ## Sources
 
 The Marion Star (Marion, Ohio), 1940–1953. Construction announcements, licensing coverage, opening-day reporting, and FM launch coverage.
 
 Articles of Incorporation of The Marion Broadcasting Company. Filed April 22, 1940. Volume 471, Page 131. Certified copy preserved in the collection of the Marion County Historical Society, Marion, Ohio.
+
 ---
 
-### Editorial confidence note
+### Editorial Confidence Statement
 
-All dates, times, frequencies, names, locations, and technical details presented here are derived from contemporaneous newspaper reporting and established federal broadcast history. Corporate formation details are drawn directly from the certified Articles of Incorporation on file with the State of Ohio. Later recollections are preserved elsewhere in the archive as oral history and are not substituted where primary documentation exists.
+All dates, times, frequencies, names, locations, and technical details presented here are derived from contemporaneous newspaper reporting and established federal broadcast history. Corporate formation details are drawn directly from the certified Articles of Incorporation filed with the State of Ohio. Later recollections are preserved elsewhere in the archive as oral history and are not substituted where primary documentation exists.
 
 {{< founding-record >}}
 

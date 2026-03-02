@@ -1,6 +1,6 @@
 <style>
 /* =========================================
-   WMRN NAVIGATION — FULL NAVY OVERRIDE
+   WMRN NAVIGATION — FULL BLUE OVERRIDE
    ========================================= */
 
 /* Remove theme accent stripe */
@@ -12,9 +12,9 @@
   box-shadow: none !important;
 }
 
-/* Add navy bottom stripe */
+/* Add blue bottom stripe */
 .menu {
-  border-bottom: 3px solid #1c2d4a !important;
+  border-bottom: 3px solid #7295B7 !important;
 }
 
 /* =====================
@@ -26,15 +26,13 @@
   color: #ffffff !important;
 }
 
-/* Hover — ALL BUTTONS NAVY */
 .menu__link:hover {
-  background-color: #1c2d4a !important;
+  background-color: #7295B7 !important;
   color: #ffffff !important;
 }
 
-/* Active page */
 .menu__item--active > .menu__link {
-  background-color: #1c2d4a !important;
+  background-color: #7295B7 !important;
   color: #ffffff !important;
 }
 
@@ -42,39 +40,50 @@
    DROPDOWN MENU
    ===================== */
 
-/* Dropdown container */
 .menu__sub-list {
-  border-top: 3px solid #1c2d4a !important;
+  border-top: 3px solid #7295B7 !important;
 }
 
-/* Dropdown default */
 .menu__sub-list .menu__link {
   color: #e6e6e6 !important;
 }
 
-/* Dropdown hover */
 .menu__sub-list .menu__link:hover {
-  background-color: #1c2d4a !important;
+  background-color: #7295B7 !important;
   color: #ffffff !important;
 }
 
-/* Dropdown active */
 .menu__sub-item--active > .menu__link {
-  background-color: #1c2d4a !important;
+  background-color: #7295B7 !important;
   color: #ffffff !important;
 }
 
 /* =====================
-   REMOVE ALL RED LINKS GLOBALLY
+   GLOBAL LINK COLORS
    ===================== */
 
-a,
-a:visited {
-  color: #1c2d4a !important;
+/* Light Mode */
+@media (prefers-color-scheme: light) {
+  a,
+  a:visited {
+    color: #7295B7 !important;
+  }
+
+  a:hover {
+    color: #5f82a2 !important; /* slightly darker hover */
+  }
 }
 
-a:hover {
-  color: #0f1f36 !important;
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  a,
+  a:visited {
+    color: #9fc0df !important; /* brighter version for dark mode */
+  }
+
+  a:hover {
+    color: #ffffff !important;
+  }
 }
 
 /* =====================
@@ -84,10 +93,15 @@ a:hover {
 .logo__title,
 .logo__link,
 .logo__description {
-  color: #1c2d4a !important;
+  color: #7295B7 !important;
 }
+
 </style>
 
+<!-- GLightbox CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+<!-- Schema.org Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -115,3 +129,13 @@ a:hover {
   ]
 }
 </script>
+
+<!-- GLightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    GLightbox({
+      selector: '.glightbox'
+    });
+  });
+</scrip

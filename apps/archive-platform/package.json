@@ -1,0 +1,37 @@
+{
+  "name": "@wmrn/archive-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Production-capable public archive and internal collection-management app for the WMRN Radio History Archive.",
+  "scripts": {
+    "dev": "next dev -p 3100",
+    "build": "next build",
+    "start": "next start -p 3100",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/test.mjs",
+    "qa:static": "node scripts/qa-static.mjs",
+    "generate:search-index": "node scripts/generate-search-index.mjs",
+    "migrate:sql": "psql \"$DATABASE_URL\" -f db/migrations/0001_initial.sql"
+  },
+  "dependencies": {
+    "@auth/core": "^0.37.4",
+    "meilisearch": "^0.47.0",
+    "next": "^15.4.2",
+    "pg": "^8.13.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^22.13.14",
+    "@types/pg": "^8.11.10",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

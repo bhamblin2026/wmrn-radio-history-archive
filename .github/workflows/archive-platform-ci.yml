@@ -1,0 +1,40 @@
+name: Archive Platform CI
+
+on:
+  pull_request:
+    paths:
+      - "apps/archive-platform/**"
+      - ".github/workflows/archive-platform-ci.yml"
+      - "DATA_MODEL.md"
+      - "SECURITY.md"
+      - "ACCESSIBILITY.md"
+      - "MIGRATION.md"
+  push:
+    branches:
+      - main
+      - "feat/**"
+
+permissions:
+  contents: read
+
+jobs:
+  app:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/archive-platform
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: apps/archive-platform/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - run: pnpm qa:static
+      - run: pnpm typecheck
+      - run: pnpm build

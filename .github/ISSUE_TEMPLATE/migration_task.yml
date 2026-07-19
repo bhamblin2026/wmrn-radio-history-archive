@@ -1,0 +1,31 @@
+name: Migration task
+description: Track WordPress, media, or legacy-source migration work.
+title: "[Migration]: "
+labels: ["migration", "archive-platform"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source system
+      placeholder: WordPress REST, media library, Drive, legacy GitHub export
+    validations:
+      required: true
+  - type: textarea
+    id: fields
+    attributes:
+      label: Fields and counts
+      description: Include source fields, expected record counts, and known gaps.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation plan
+      description: Duplicate checks, failed rows, rollback, and source preservation.
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy and restrictions
+      description: Private data, donor limits, rights, or takedown concerns.

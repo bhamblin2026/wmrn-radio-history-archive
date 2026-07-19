@@ -1,0 +1,62 @@
+services:
+  app:
+    image: node:22-bookworm-slim
+    working_dir: /app
+    command: sh -c "corepack enable && pnpm install && pnpm dev"
+    ports:
+      - "3100:3100"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    depends_on:
+      postgres:
+        condition: service_healthy
+      meilisearch:
+        condition: service_started
+      minio:
+        condition: service_started
+
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: wmrn_archive
+      POSTGRES_USER: wmrn
+      POSTGRES_PASSWORD: wmrn_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./db/migrations:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U wmrn -d wmrn_archive"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  meilisearch:
+    image: getmeili/meilisearch:v1.10
+    environment:
+      MEILI_ENV: development
+      MEILI_MASTER_KEY: change-me-in-local-dev
+    ports:
+      - "7700:7700"
+    volumes:
+      - meili-data:/meili_data
+
+  minio:
+    image: minio/minio:RELEASE.2026-07-13T18-09-28Z
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: wmrn-local
+      MINIO_ROOT_PASSWORD: change-me-in-local-dev
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio-data:/data
+
+volumes:
+  postgres-data:
+  meili-data:
+  minio-data:

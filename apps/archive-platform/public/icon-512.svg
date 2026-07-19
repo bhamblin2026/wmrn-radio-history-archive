@@ -1,0 +1,6 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="WMRN Archive icon">
+  <rect width="512" height="512" rx="72" fill="#1c2d4a"/>
+  <rect x="64" y="90" width="384" height="330" rx="28" fill="#f6f7f9"/>
+  <path d="M128 190h256M128 256h256M128 322h166" stroke="#8b1e1e" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="366" cy="326" r="46" fill="#7295b7"/>
+</svg>

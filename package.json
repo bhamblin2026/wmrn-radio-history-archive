@@ -1,0 +1,11 @@
+{
+  "name": "wmrn-radio-history-archive-workspace",
+  "private": true,
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "test": "pnpm --dir apps/archive-platform test",
+    "qa:static": "pnpm --dir apps/archive-platform qa:static",
+    "typecheck": "pnpm --dir apps/archive-platform typecheck",
+    "build": "pnpm --dir apps/archive-platform build"
+  }
+}
